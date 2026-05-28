@@ -50,3 +50,5 @@
 
 - **安全**
   - [前端安全与认证](docs/Security/index.md)
+  - [JWT和OAuth2认证](docs/Security/jwt-and-oauth2-authentication.md)
+  - [Web前端安全指南](docs/Security/web-frontend-security-guide.md)
