@@ -8,6 +8,9 @@ export default withMermaid(
     description: '从入门到入土 - 前端学习笔记',
     lang: 'zh-CN',
     
+    // 站点 base URL（GitHub Pages 子路径）
+    base: '/fe-buried/',
+    
     // 内容源目录
     srcDir: 'docs',
     
