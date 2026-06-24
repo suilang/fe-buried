@@ -33,12 +33,12 @@
 ```
 **示例如下：**
 
-<div style={{width: '300px', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}>
+<div style="{width: '300px', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}">
   this is inner text
   <div>
     this is a block element
   </div>
-  <div style={{border: '1px solid grey', width: '200px'}}>
+  <div style="{border: '1px solid grey', width: '200px'}}">
       this is another block element
   </div>
 </div>
@@ -79,9 +79,9 @@
 }
 ```
 
-<div style={{width: '300px', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}>
+<div style="{width: '300px', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}">
   this is inner text
-  <div style={{border: '1px solid grey', width: '200px', margin: '0 auto'}}>
+  <div style="{border: '1px solid grey', width: '200px', margin: '0 auto'}}">
       this is another block element
   </div>
 </div>
@@ -123,9 +123,9 @@ transform设置百分比参数是相对于自身尺寸的
     border: 1px solid #888;
 }
 ```
-<div style={{height: '120px', width: '200px', position: 'relative', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}>
+<div style="{height: '120px', width: '200px', position: 'relative', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}">
    this is inner text
-  <div style={{position: 'absolute',left: '50%',transform: 'translateX(-50%)', width: '100px',border: '1px solid #888'}}>
+  <div style="{position: 'absolute',left: '50%',transform: 'translateX(-50%)', width: '100px',border: '1px solid #888'}}">
     this is a block element
   </div>
 </div>
@@ -149,9 +149,9 @@ html代码同上，替换 `ele1` 元素样式中 `transform: translateX(-50%)` �
 }
 ```
 
- <div style={{height: '120px', width: '200px', position: 'relative', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}>
+ <div style="{height: '120px', width: '200px', position: 'relative', border: '1px solid grey', textAlign: 'center', marginBottom: '20px'}}">
    this is inner text
-  <div style={{position: 'absolute',left: '50%',marginLeft: '-50px', width: '100px',border: '1px solid #888'}}>
+  <div style="{position: 'absolute',left: '50%',marginLeft: '-50px', width: '100px',border: '1px solid #888'}}">
     this is a block element
   </div>
 </div>
@@ -184,8 +184,8 @@ flex默认水平轴为主轴，设置当前主轴对齐方式为居中
 ```
 **示例如下**
 
-<div style={{height:' 200px', width: '220px', display: 'flex', justifyContent: 'center', border: '1px solid grey',}}>
-  <div style={{width: '100px',height: '100px',border: '1px solid #888'}}>
+<div style="{height:' 200px', width: '220px', display: 'flex', justifyContent: 'center', border: '1px solid grey',}}">
+  <div style="{width: '100px',height: '100px',border: '1px solid #888'}}">
     this is a block element
   </div>
 </div>
@@ -226,9 +226,9 @@ flex默认水平轴为主轴，设置当前主轴对齐方式为居中
 
 **示例如下**
 
-<div style={{width: '220px', height: '50px', verticalAlign: 'middle', border: '1px solid grey' }}>
-  <div style={{border: '1px solid grey', height: '30px', display: 'inline-block'}} >this is inner text</div>
-  <div style={{verticalAlign: 'middle',  display: 'inline-block' }}>inline-block</div>
+<div style="{width: '220px', height: '50px', verticalAlign: 'middle', border: '1px solid grey' }}">
+  <div style="{border: '1px solid grey', height: '30px', display: 'inline-block'}}" >this is inner text</div>
+  <div style="{verticalAlign: 'middle',  display: 'inline-block' }}">inline-block</div>
 </div>
 
 
@@ -259,7 +259,7 @@ flex默认水平轴为主轴，设置当前主轴对齐方式为居中
 }
 ```
 
-<div style={{width: '220px',height: '50px',lineHeight: '50px',border: '1px solid grey', marginBottom: '20px'}}>
+<div style="{width: '220px',height: '50px',lineHeight: '50px',border: '1px solid grey', marginBottom: '20px'}}">
     this is inner text
 </div>
 
@@ -296,11 +296,11 @@ div{
  line-height:0;
 }
 ```
-<div style={{width: '220px',height:'100px',border: '1px solid grey'}}>
-  <div style={{marginTop: '20px',border: '1px solid grey'}}>
+<div style="{width: '220px',height:'100px',border: '1px solid grey'}}">
+  <div style="{marginTop: '20px',border: '1px solid grey'}}">
     this is inner text
   </div>
-  <div style={{lineHeight: 0}}>
+  <div style="{lineHeight: 0}}">
     this is inner text
   </div>
 </div>
@@ -364,8 +364,8 @@ margin-top: -50px; // 负值，设为元素自身高度的一半
     margin: auto;
 }
 ```
- <div style={{width: '200px',height: '100px', position: 'relative',border: '1px solid grey', marginBottom: '20px'}}>
-  <div style={{width: '70px', height: '70px',border: '1px solid grey',position: 'absolute',top: 0,left: 0,right: 0,bottom: 0,margin: 'auto'}}>
+ <div style="{width: '200px',height: '100px', position: 'relative',border: '1px solid grey', marginBottom: '20px'}}">
+  <div style="{width: '70px', height: '70px',border: '1px solid grey',position: 'absolute',top: 0,left: 0,right: 0,bottom: 0,margin: 'auto'}}">
     this is block element
   </div>
 </div>
@@ -425,13 +425,13 @@ flex默认水平轴为主轴，设置当前纵轴对齐方式为居中
     border: 1px solid #888;
 }
 ```
-<div style={{height: '200px',
+<div style="{height: '200px',
     width: '200px',
     writingMode: 'vertical-lr',
     border: '1px solid grey',
-    textAlign: 'center'}}>
-  <div style={{display: 'inline-block',
-    border: '1px solid #888'}}>
+    textAlign: 'center'}}">
+  <div style="{display: 'inline-block',
+    border: '1px solid #888'}}">
    block element
   </div>
 </div>
@@ -503,30 +503,30 @@ flex默认水平轴为主轴，设置当前纵轴对齐方式为居中
     margin-bottom: 10px;
 }
 ```
-<div style={{boxSizing: 'border-box', border: '1px solid grey', width: '392px', marginBottom: '20px'}}>
-  <div style={{boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', marginRight: '-10px'}}>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+<div style="{boxSizing: 'border-box', border: '1px solid grey', width: '392px', marginBottom: '20px'}}">
+  <div style="{boxSizing: 'border-box', display: 'flex', flexWrap: 'wrap', marginRight: '-10px'}}">
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
-    <div style={{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}>
+    <div style="{boxSizing: 'border-box', background: '#ccc', width: '90px', height: '40px', lineHeight: '40px', marginRight: '10px', marginBottom: '10px'}}">
      element
     </div>
   </div>

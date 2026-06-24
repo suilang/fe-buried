@@ -93,7 +93,7 @@ font-size:20pt;
 !important 规则例外。当 !important 规则被应用在一个样式声明中时,该样式声明会覆盖CSS中任何其他的声明, 无论它处在声明列表中的哪里.
 
 **权重计算逻辑**
-[](./../../static/img/css-youxianji.png)
+[](/img/css-youxianji.png)
 
  1. 内联样式表的权值最高 1000；
  2. ID 选择器的权值为 100

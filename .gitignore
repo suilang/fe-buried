@@ -3,6 +3,8 @@
 
 # Production
 /build
+/.vitepress/dist
+/.vitepress/cache
 
 # Misc
 .DS_Store

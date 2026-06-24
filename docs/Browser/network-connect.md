@@ -141,30 +141,30 @@ function OnlineStatus() {
   }, []);
 
   return (
-    <div style={{ border: '1px solid #dee0e3', padding: '24px', borderRadius: 4 }}>
-      <div style={{ borderBottom: '1px solid #dee0e3', paddingBottom: 12, marginBottom: 12 }}>
+    <div style="{ border: '1px solid #dee0e3', padding: '24px', borderRadius: 4 }}">
+      <div style="{ borderBottom: '1px solid #dee0e3', paddingBottom: 12, marginBottom: 12 }}">
         <span>当前页面的网络状态为:</span>
-        <span style={{
+        <span style="{
           padding: '4px',
           borderRadius: 4,
           background: isOnline ? 'green' : 'red',
           marginLeft: 8,
           color: '#fff',
-        }}>
+        }}">
           {isOnline ? '网络已连接' : '网络已断开'}
         </span>
       </div>
       {connect.effectiveType ? (
         <>
           <div>当前网络连接状态：</div>
-          <div style={{
+          <div style="{
             display: 'flex',
             flexDirection: 'column',
             padding: '12px 24px',
             background: '#f1f1f1',
             borderRadius: 4,
             color: '#999999',
-          }}>
+          }}">
             <span>effectiveType: {connect.effectiveType}</span>
             <span>rtt: {connect.rtt}</span>
             <span>downlink: {connect.downlink}</span>
@@ -223,23 +223,23 @@ function CheckNetworkStatus({ url = 'https://www.baidu.com' }) {
   };
 
   return (
-    <div style={{
+    <div style="{
       border: '1px solid #dee0e3',
       padding: '24px',
       borderRadius: 4,
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-    }}>
+    }}">
       <div
         onClick={onClick}
-        style={{
+        style="{
           padding: '4px 12px',
           borderRadius: '8px',
           background: '#00aa00',
           color: '#fff',
           cursor: 'pointer',
-        }}
+        }}"
       >
         检查网络
       </div>
@@ -282,23 +282,23 @@ function CheckInnerStatus({ url = 'https://www.baidu.com' }) {
   };
 
   return (
-    <div style={{
+    <div style="{
       border: '1px solid #dee0e3',
       padding: '24px',
       borderRadius: 4,
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-    }}>
+    }}">
       <div
         onClick={onClick}
-        style={{
+        style="{
           padding: '4px 12px',
           borderRadius: '8px',
           background: '#00aa00',
           color: '#fff',
           cursor: 'pointer',
-        }}
+        }}"
       >
         检查网络
       </div>

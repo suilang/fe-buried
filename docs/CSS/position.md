@@ -13,7 +13,7 @@ CSS `position`属性用于指定一个元素在文档中的定位方式。`top`�
 }
 ```
 
-![](../../static/img/image%20%2810%29.png)
+![](/img/image%20%2810%29.png)
 
 `relative`是position属性的六个值之一。
 
@@ -29,7 +29,7 @@ CSS `position`属性用于指定一个元素在文档中的定位方式。`top`�
 
 > position:relative 对 table-\*-group, table-row, table-column, table-cell, table-caption 元素无效。
 
-![](../../static/img/image%20%287%29.png)
+![](/img/image%20%287%29.png)
 
 如上图所示，虽然第一个方块因为`relative`移动了位置，但并未影响页面原本布局。
 
@@ -37,7 +37,7 @@ CSS `position`属性用于指定一个元素在文档中的定位方式。`top`�
 
 元素会被移出正常文档流，并不为元素预留空间，通过指定元素相对于最近的非 static 定位祖先元素的偏移，来确定元素位置。绝对定位的元素可以设置外边距（margins），且不会与其他边距合并。
 
-![](../../static/img/image%20%289%29.png)
+![](/img/image%20%289%29.png)
 
 > 此时，蓝色框的父元素设置为 `position: relative`，用来限定子元素绝对定位的位置，`child element` 设置为 `top: 80px, left: 50px`
 
@@ -184,7 +184,7 @@ CSS `position`属性用于指定一个元素在文档中的定位方式。`top`�
 
 ### 附上浏览器支持：
 
-![](../../static/img/image%20%288%29.png)
+![](/img/image%20%288%29.png)
 
 参考文档：
 

@@ -93,7 +93,7 @@ ECMAS实现双等的抽象比较的逻辑如下：
 
 来张图：
 
-![](../../static/img/ping-mu-kuai-zhao-20200428-xia-wu-8.30.56.png)
+![](/img/ping-mu-kuai-zhao-20200428-xia-wu-8.30.56.png)
 
 再來張表：
 

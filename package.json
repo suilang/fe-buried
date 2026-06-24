@@ -4,17 +4,22 @@
   "description": "前端知识库 - 从入门到入土",
   "private": true,
   "scripts": {
-    "start": "docsify serve . --port 3000",
-    "serve": "docsify serve . --port 3000"
+    "dev": "vitepress dev --port 3000",
+    "build": "vitepress build && cp .nojekyll .vitepress/dist/.nojekyll",
+    "preview": "vitepress preview --port 3000",
+    "deploy": "vitepress build && npx gh-pages -d .vitepress/dist"
   },
   "devDependencies": {
-    "docsify-cli": "^4.4.4"
+    "gh-pages": "^6.3.0",
+    "mermaid": "^11.15.0",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
   },
   "keywords": [
     "frontend",
     "javascript",
     "knowledge-base",
-    "docsify"
+    "vitepress"
   ],
   "author": "suilang",
   "license": "MIT"

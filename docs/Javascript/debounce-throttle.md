@@ -69,8 +69,10 @@ export default function() {
     setCounter(counter + 1)
   }, 1000)
 
+::: v-pre
   return <div style={{ padding: 30 }}>
     <Button
+:::
       onClick={handleClick}
     >click</Button>
     <div>{counter}</div>
@@ -97,8 +99,10 @@ export default function() {
   }, [])
 
 
+::: v-pre
   return <div style={{ padding: 30 }}>
     <Button
+:::
       onClick={function() {
         handleClick()
       }}
@@ -144,8 +148,10 @@ export default function() {
     setCounter(counter + 1)
   }, 1000)
 
+::: v-pre
   return <div style={{ padding: 30 }}>
     <Button
+:::
       onClick={handleClick}
     >click</Button>
     <div>{counter}</div>

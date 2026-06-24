@@ -2,1310 +2,2098 @@
 # yarn lockfile v1
 
 
-"@sindresorhus/is@^0.14.0":
-  version "0.14.0"
-  resolved "http://registry.m.jd.com/@sindresorhus/is/download/@sindresorhus/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
-  integrity sha1-n7OjzzEyMoFR81PeRjLgHlIQK+o=
-
-"@szmarczak/http-timer@^1.1.2":
-  version "1.1.2"
-  resolved "http://registry.m.jd.com/@szmarczak/http-timer/download/@szmarczak/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
-  integrity sha1-sWZeLEYaLNkvTBu/UNVFTeDUtCE=
+"@algolia/abtesting@1.19.0":
+  version "1.19.0"
+  resolved "http://registry.m.jd.com/@algolia/abtesting/download/@algolia/abtesting-1.19.0.tgz"
+  integrity sha1-LMz4ZWkaHzIcWD/8YytAXn1HhLk=
   dependencies:
-    defer-to-connect "^1.0.1"
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
 
-ansi-align@^3.0.0:
-  version "3.0.1"
-  resolved "http://registry.m.jd.com/ansi-align/download/ansi-align-3.0.1.tgz#0cdf12e111ace773a86e9a1fad1225c43cb19a59"
-  integrity sha1-DN8S4RGs53OobpofrRIlxDyxmlk=
+"@algolia/autocomplete-core@1.17.7":
+  version "1.17.7"
+  resolved "http://registry.m.jd.com/@algolia/autocomplete-core/download/@algolia/autocomplete-core-1.17.7.tgz"
+  integrity sha1-LEELqpSkfFxfVu1xK7SgDr4kCIs=
   dependencies:
-    string-width "^4.1.0"
+    "@algolia/autocomplete-plugin-algolia-insights" "1.17.7"
+    "@algolia/autocomplete-shared" "1.17.7"
 
-ansi-colors@^4.1.1:
-  version "4.1.3"
-  resolved "http://registry.m.jd.com/ansi-colors/download/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
-  integrity sha1-N2ETQOsiQ+cMxgTK011jJw1IeBs=
-
-ansi-regex@^2.0.0:
-  version "2.1.1"
-  resolved "http://registry.m.jd.com/ansi-regex/download/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
-  integrity sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
-
-ansi-regex@^5.0.1:
-  version "5.0.1"
-  resolved "http://registry.m.jd.com/ansi-regex/download/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
-  integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
-
-ansi-styles@^2.2.1:
-  version "2.2.1"
-  resolved "http://registry.m.jd.com/ansi-styles/download/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
-  integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
-
-ansi-styles@^3.2.1:
-  version "3.2.1"
-  resolved "http://registry.m.jd.com/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
-  integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
+"@algolia/autocomplete-plugin-algolia-insights@1.17.7":
+  version "1.17.7"
+  resolved "http://registry.m.jd.com/@algolia/autocomplete-plugin-algolia-insights/download/@algolia/autocomplete-plugin-algolia-insights-1.17.7.tgz"
+  integrity sha1-fSsQX4Tn3Y8DcKpMSrO3BOZ2DYI=
   dependencies:
-    color-convert "^1.9.0"
+    "@algolia/autocomplete-shared" "1.17.7"
 
-ansi-styles@^4.0.0, ansi-styles@^4.1.0:
-  version "4.3.0"
-  resolved "http://registry.m.jd.com/ansi-styles/download/ansi-styles-4.3.0.tgz#edd803628ae71c04c85ae7a0906edad34b648937"
-  integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
+"@algolia/autocomplete-preset-algolia@1.17.7":
+  version "1.17.7"
+  resolved "http://registry.m.jd.com/@algolia/autocomplete-preset-algolia/download/@algolia/autocomplete-preset-algolia-1.17.7.tgz"
+  integrity sha1-ybrcDXPWLbW/Vl2DnZTsADRoCuk=
   dependencies:
-    color-convert "^2.0.1"
+    "@algolia/autocomplete-shared" "1.17.7"
 
-anymatch@~3.1.2:
+"@algolia/autocomplete-shared@1.17.7":
+  version "1.17.7"
+  resolved "http://registry.m.jd.com/@algolia/autocomplete-shared/download/@algolia/autocomplete-shared-1.17.7.tgz"
+  integrity sha1-EF6ErZ0aMdP7hrog3IkO7+GjE6A=
+
+"@algolia/client-abtesting@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-abtesting/download/@algolia/client-abtesting-5.53.0.tgz"
+  integrity sha1-ZmJmD1cCBv6IqOPKySy4CardlRk=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/client-analytics@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-analytics/download/@algolia/client-analytics-5.53.0.tgz"
+  integrity sha1-f1Lmkd+r7h1UdsPXwQDkld4J4M4=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/client-common@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-common/download/@algolia/client-common-5.53.0.tgz"
+  integrity sha1-yLDYr8DSArpx3pw6wsczG5ICD3U=
+
+"@algolia/client-insights@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-insights/download/@algolia/client-insights-5.53.0.tgz"
+  integrity sha1-USpaW1yGhcEhzf55r5zf9Tj5ywc=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/client-personalization@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-personalization/download/@algolia/client-personalization-5.53.0.tgz"
+  integrity sha1-U2nMTr5aSdrV9K+VkmAgbImmye8=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/client-query-suggestions@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-query-suggestions/download/@algolia/client-query-suggestions-5.53.0.tgz"
+  integrity sha1-zgC1sLoNcegXX057I44/KPAu5A4=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/client-search@>= 4.9.1 < 6", "@algolia/client-search@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/client-search/download/@algolia/client-search-5.53.0.tgz"
+  integrity sha1-obQSiARiyFoaxyyDBJjgMS3eHg4=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/ingestion@1.53.0":
+  version "1.53.0"
+  resolved "http://registry.m.jd.com/@algolia/ingestion/download/@algolia/ingestion-1.53.0.tgz"
+  integrity sha1-hBfO9kMNpPsUI0w8ZphybHpBor4=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/monitoring@1.53.0":
+  version "1.53.0"
+  resolved "http://registry.m.jd.com/@algolia/monitoring/download/@algolia/monitoring-1.53.0.tgz"
+  integrity sha1-CRAFUZoxsEqLnyyffRM1gAGmlrs=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/recommend@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/recommend/download/@algolia/recommend-5.53.0.tgz"
+  integrity sha1-1F9VOJhPII9R9xpMa5c+scGopmw=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+"@algolia/requester-browser-xhr@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/requester-browser-xhr/download/@algolia/requester-browser-xhr-5.53.0.tgz"
+  integrity sha1-vXQnNDNzeAkNXJX4DeK3qTMImSQ=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+
+"@algolia/requester-fetch@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/requester-fetch/download/@algolia/requester-fetch-5.53.0.tgz"
+  integrity sha1-H0s9kzxQ0AIt5M4Y0jW2UyW3Ak4=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+
+"@algolia/requester-node-http@5.53.0":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/@algolia/requester-node-http/download/@algolia/requester-node-http-5.53.0.tgz"
+  integrity sha1-jCVmmq9vwRopcNL2L72jxgPsEc4=
+  dependencies:
+    "@algolia/client-common" "5.53.0"
+
+"@antfu/install-pkg@^1.1.0":
+  version "1.1.0"
+  resolved "http://registry.m.jd.com/@antfu/install-pkg/download/@antfu/install-pkg-1.1.0.tgz"
+  integrity sha1-ePoDa+GmCBtad6XPWfUMd1K2uiY=
+  dependencies:
+    package-manager-detector "^1.3.0"
+    tinyexec "^1.0.1"
+
+"@babel/helper-string-parser@^7.29.7":
+  version "7.29.7"
+  resolved "http://registry.m.jd.com/@babel/helper-string-parser/download/@babel/helper-string-parser-7.29.7.tgz"
+  integrity sha1-fwhx2Zgk0jE31g+G/PYTD9WhtR8=
+
+"@babel/helper-validator-identifier@^7.29.7":
+  version "7.29.7"
+  resolved "http://registry.m.jd.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.29.7.tgz"
+  integrity sha1-vYcITO0MeW7Ea9pJLeboPSnon8I=
+
+"@babel/parser@^7.29.7":
+  version "7.29.7"
+  resolved "http://registry.m.jd.com/@babel/parser/download/@babel/parser-7.29.7.tgz"
+  integrity sha1-g3uHOHy/XsVTDLY0s8Yi9o7bkzQ=
+  dependencies:
+    "@babel/types" "^7.29.7"
+
+"@babel/types@^7.29.7":
+  version "7.29.7"
+  resolved "http://registry.m.jd.com/@babel/types/download/@babel/types-7.29.7.tgz"
+  integrity sha1-gAXjHYJxLuetrvbiPGO3GmJ3CpI=
+  dependencies:
+    "@babel/helper-string-parser" "^7.29.7"
+    "@babel/helper-validator-identifier" "^7.29.7"
+
+"@braintree/sanitize-url@^6.0.0":
+  version "6.0.4"
+  resolved "http://registry.m.jd.com/@braintree/sanitize-url/download/@braintree/sanitize-url-6.0.4.tgz"
+  integrity sha1-kjylfhc8ayMru7BzR7G+mC8D54M=
+
+"@braintree/sanitize-url@^7.1.1":
+  version "7.1.2"
+  resolved "http://registry.m.jd.com/@braintree/sanitize-url/download/@braintree/sanitize-url-7.1.2.tgz"
+  integrity sha1-yiA1sP7+lWqGdv8Maa9z5gX82B8=
+
+"@chevrotain/types@~11.1.1":
+  version "11.1.2"
+  resolved "http://registry.m.jd.com/@chevrotain/types/download/@chevrotain/types-11.1.2.tgz"
+  integrity sha1-6DoaJwTwxeSedZKyFAMaD0o01+U=
+
+"@docsearch/css@3.8.2":
+  version "3.8.2"
+  resolved "http://registry.m.jd.com/@docsearch/css/download/@docsearch/css-3.8.2.tgz"
+  integrity sha1-eXPOtoksMPFUuiVM0FxWIlekSXc=
+
+"@docsearch/js@3.8.2":
+  version "3.8.2"
+  resolved "http://registry.m.jd.com/@docsearch/js/download/@docsearch/js-3.8.2.tgz"
+  integrity sha1-vc/Jg3cA6zhFO4jiEatcxaOBPMY=
+  dependencies:
+    "@docsearch/react" "3.8.2"
+    preact "^10.0.0"
+
+"@docsearch/react@3.8.2":
+  version "3.8.2"
+  resolved "http://registry.m.jd.com/@docsearch/react/download/@docsearch/react-3.8.2.tgz"
+  integrity sha1-exHTm2HJdsCqn73mbmtzsw86zUI=
+  dependencies:
+    "@algolia/autocomplete-core" "1.17.7"
+    "@algolia/autocomplete-preset-algolia" "1.17.7"
+    "@docsearch/css" "3.8.2"
+    algoliasearch "^5.14.2"
+
+"@esbuild/darwin-arm64@0.21.5":
+  version "0.21.5"
+  resolved "http://registry.m.jd.com/@esbuild/darwin-arm64/download/@esbuild/darwin-arm64-0.21.5.tgz"
+  integrity sha1-5JW1OWYOUWkPOSivUKdvsKbM/yo=
+
+"@iconify-json/simple-icons@^1.2.21":
+  version "1.2.84"
+  resolved "http://registry.m.jd.com/@iconify-json/simple-icons/download/@iconify-json/simple-icons-1.2.84.tgz"
+  integrity sha1-HnLG4Hiby6MoGzGC05jth2oWl8s=
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/types@*", "@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/@iconify/types/download/@iconify/types-2.0.0.tgz"
+  integrity sha1-qw6epoHWyKEhTzDNdB/jogzFf1c=
+
+"@iconify/utils@^3.0.2":
   version "3.1.3"
-  resolved "http://registry.m.jd.com/anymatch/download/anymatch-3.1.3.tgz#790c58b19ba1720a84205b57c618d5ad8524973e"
-  integrity sha1-eQxYsZuhcgqEIFtXxhjVrYUklz4=
+  resolved "http://registry.m.jd.com/@iconify/utils/download/@iconify/utils-3.1.3.tgz"
+  integrity sha1-ce/Wj57S6jyR/ToBwAMvcKhwJ7c=
   dependencies:
-    normalize-path "^3.0.0"
-    picomatch "^2.0.4"
+    "@antfu/install-pkg" "^1.1.0"
+    "@iconify/types" "^2.0.0"
+    import-meta-resolve "^4.2.0"
 
-binary-extensions@^2.0.0:
-  version "2.2.0"
-  resolved "http://registry.m.jd.com/binary-extensions/download/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
-  integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
+"@jridgewell/sourcemap-codec@^1.5.5":
+  version "1.5.5"
+  resolved "http://registry.m.jd.com/@jridgewell/sourcemap-codec/download/@jridgewell/sourcemap-codec-1.5.5.tgz"
+  integrity sha1-aRKwDSxjHA0Vzhp6tXzWV/Ko+Lo=
 
-boxen@^4.2.0:
-  version "4.2.0"
-  resolved "http://registry.m.jd.com/boxen/download/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
-  integrity sha1-5BG2I1fW1tNlh8isPV2XTaoHDmQ=
+"@mermaid-js/mermaid-mindmap@^9.3.0":
+  version "9.3.0"
+  resolved "http://registry.m.jd.com/@mermaid-js/mermaid-mindmap/download/@mermaid-js/mermaid-mindmap-9.3.0.tgz"
+  integrity sha1-z+EDKRmKDzfifu8dzEoc8h8Yfis=
   dependencies:
-    ansi-align "^3.0.0"
-    camelcase "^5.3.1"
-    chalk "^3.0.0"
-    cli-boxes "^2.2.0"
-    string-width "^4.1.0"
-    term-size "^2.1.0"
-    type-fest "^0.8.1"
-    widest-line "^3.1.0"
+    "@braintree/sanitize-url" "^6.0.0"
+    cytoscape "^3.23.0"
+    cytoscape-cose-bilkent "^4.1.0"
+    cytoscape-fcose "^2.1.0"
+    d3 "^7.0.0"
+    khroma "^2.0.0"
+    non-layered-tidy-tree-layout "^2.0.2"
 
-braces@~3.0.2:
-  version "3.0.2"
-  resolved "http://registry.m.jd.com/braces/download/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
-  integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
-  dependencies:
-    fill-range "^7.0.1"
-
-cacheable-request@^6.0.0:
-  version "6.1.0"
-  resolved "http://registry.m.jd.com/cacheable-request/download/cacheable-request-6.1.0.tgz#20ffb8bd162ba4be11e9567d823db651052ca912"
-  integrity sha1-IP+4vRYrpL4R6VZ9gj22UQUsqRI=
-  dependencies:
-    clone-response "^1.0.2"
-    get-stream "^5.1.0"
-    http-cache-semantics "^4.0.0"
-    keyv "^3.0.0"
-    lowercase-keys "^2.0.0"
-    normalize-url "^4.1.0"
-    responselike "^1.0.2"
-
-camelcase@^5.0.0, camelcase@^5.3.1:
-  version "5.3.1"
-  resolved "http://registry.m.jd.com/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
-  integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
-
-chalk@^1.1.1:
-  version "1.1.3"
-  resolved "http://registry.m.jd.com/chalk/download/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98"
-  integrity sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
-  dependencies:
-    ansi-styles "^2.2.1"
-    escape-string-regexp "^1.0.2"
-    has-ansi "^2.0.0"
-    strip-ansi "^3.0.0"
-    supports-color "^2.0.0"
-
-chalk@^2.4.2:
-  version "2.4.2"
-  resolved "http://registry.m.jd.com/chalk/download/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
-  integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
-
-chalk@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/chalk/download/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
-  integrity sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chokidar@^3.5.0:
-  version "3.6.0"
-  resolved "http://registry.m.jd.com/chokidar/download/chokidar-3.6.0.tgz#197c6cc669ef2a8dc5e7b4d97ee4e092c3eb0d5b"
-  integrity sha1-GXxsxmnvKo3F57TZfuTgksPrDVs=
-  dependencies:
-    anymatch "~3.1.2"
-    braces "~3.0.2"
-    glob-parent "~5.1.2"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.6.0"
-  optionalDependencies:
-    fsevents "~2.3.2"
-
-ci-info@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/ci-info/download/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
-  integrity sha1-Z6npZL4xpR4V5QENWObxKDQAL0Y=
-
-cli-boxes@^2.2.0:
-  version "2.2.1"
-  resolved "http://registry.m.jd.com/cli-boxes/download/cli-boxes-2.2.1.tgz#ddd5035d25094fce220e9cab40a45840a440318f"
-  integrity sha1-3dUDXSUJT84iDpyrQKRYQKRAMY8=
-
-cliui@^6.0.0:
-  version "6.0.0"
-  resolved "http://registry.m.jd.com/cliui/download/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
-  integrity sha1-UR1wLAxOQcoVbX0OlgIfI+EyJbE=
-  dependencies:
-    string-width "^4.2.0"
-    strip-ansi "^6.0.0"
-    wrap-ansi "^6.2.0"
-
-clone-response@^1.0.2:
-  version "1.0.3"
-  resolved "http://registry.m.jd.com/clone-response/download/clone-response-1.0.3.tgz#af2032aa47816399cf5f0a1d0db902f517abb8c3"
-  integrity sha1-ryAyqkeBY5nPXwodDbkC9ReruMM=
-  dependencies:
-    mimic-response "^1.0.0"
-
-color-convert@^1.9.0:
-  version "1.9.3"
-  resolved "http://registry.m.jd.com/color-convert/download/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
-  integrity sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg=
-  dependencies:
-    color-name "1.1.3"
-
-color-convert@^2.0.1:
-  version "2.0.1"
-  resolved "http://registry.m.jd.com/color-convert/download/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
-  integrity sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=
-  dependencies:
-    color-name "~1.1.4"
-
-color-name@1.1.3:
-  version "1.1.3"
-  resolved "http://registry.m.jd.com/color-name/download/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
-  integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
-
-color-name@~1.1.4:
-  version "1.1.4"
-  resolved "http://registry.m.jd.com/color-name/download/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
-  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
-
-commander@^14.0.0:
-  version "14.0.3"
-  resolved "http://registry.m.jd.com/commander/download/commander-14.0.3.tgz#425d79b48f9af82fcd9e4fc1ea8af6c5ec07bbc2"
-  integrity sha1-Ql15tI+a+C/Nnk/B6or2xewHu8I=
-
-configstore@^5.0.1:
-  version "5.0.1"
-  resolved "http://registry.m.jd.com/configstore/download/configstore-5.0.1.tgz#d365021b5df4b98cdd187d6a3b0e3f6a7cc5ed96"
-  integrity sha1-02UCG130uYzdGH1qOw4/anzF7ZY=
-  dependencies:
-    dot-prop "^5.2.0"
-    graceful-fs "^4.1.2"
-    make-dir "^3.0.0"
-    unique-string "^2.0.0"
-    write-file-atomic "^3.0.0"
-    xdg-basedir "^4.0.0"
-
-connect-history-api-fallback@^1.6.0:
-  version "1.6.0"
-  resolved "http://registry.m.jd.com/connect-history-api-fallback/download/connect-history-api-fallback-1.6.0.tgz#8b32089359308d111115d81cad3fceab888f97bc"
-  integrity sha1-izIIk1kwjRERFdgcrT/Oq4iPl7w=
-
-connect-livereload@^0.6.0:
-  version "0.6.1"
-  resolved "http://registry.m.jd.com/connect-livereload/download/connect-livereload-0.6.1.tgz#1ac0c8bb9d9cfd5b28b629987a56a9239db9baaa"
-  integrity sha1-GsDIu52c/VsotimYelapI525uqo=
-
-connect@^3.6.0:
-  version "3.7.0"
-  resolved "http://registry.m.jd.com/connect/download/connect-3.7.0.tgz#5d49348910caa5e07a01800b030d0c35f20484f8"
-  integrity sha1-XUk0iRDKpeB6AYALAw0MNfIEhPg=
-  dependencies:
-    debug "2.6.9"
-    finalhandler "1.1.2"
-    parseurl "~1.3.3"
-    utils-merge "1.0.1"
-
-cp-file@^7.0.0:
-  version "7.0.0"
-  resolved "http://registry.m.jd.com/cp-file/download/cp-file-7.0.0.tgz#b9454cfd07fe3b974ab9ea0e5f29655791a9b8cd"
-  integrity sha1-uUVM/Qf+O5dKueoOXyllV5GpuM0=
-  dependencies:
-    graceful-fs "^4.1.2"
-    make-dir "^3.0.0"
-    nested-error-stacks "^2.0.0"
-    p-event "^4.1.0"
-
-crypto-random-string@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/crypto-random-string/download/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
-  integrity sha1-7yp6lm7BEIM4g2m6oC6+rSKbMNU=
-
-debug@2.6.9:
-  version "2.6.9"
-  resolved "http://registry.m.jd.com/debug/download/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
-  integrity sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
-  dependencies:
-    ms "2.0.0"
-
-debug@^4.3.3:
-  version "4.4.3"
-  resolved "http://registry.m.jd.com/debug/download/debug-4.4.3.tgz#c6ae432d9bd9662582fce08709b038c58e9e3d6a"
-  integrity sha1-xq5DLZvZZiWC/OCHCbA4xY6ePWo=
-  dependencies:
-    ms "^2.1.3"
-
-decamelize@^1.2.0:
-  version "1.2.0"
-  resolved "http://registry.m.jd.com/decamelize/download/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
-  integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
-
-decompress-response@^3.3.0:
-  version "3.3.0"
-  resolved "http://registry.m.jd.com/decompress-response/download/decompress-response-3.3.0.tgz#80a4dd323748384bfa248083622aedec982adff3"
-  integrity sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=
-  dependencies:
-    mimic-response "^1.0.0"
-
-deep-extend@^0.6.0:
-  version "0.6.0"
-  resolved "http://registry.m.jd.com/deep-extend/download/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
-  integrity sha1-xPp8lUBKF6nD6Mp+FTcxK3NjMKw=
-
-defer-to-connect@^1.0.1:
-  version "1.1.3"
-  resolved "http://registry.m.jd.com/defer-to-connect/download/defer-to-connect-1.1.3.tgz#331ae050c08dcf789f8c83a7b81f0ed94f4ac591"
-  integrity sha1-MxrgUMCNz3ifjIOnuB8O2U9KxZE=
-
-depd@2.0.0, depd@~2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/depd/download/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
-  integrity sha1-tpYWPMdXVg0JzyLMj60Vcbeedt8=
-
-destroy@1.2.0:
-  version "1.2.0"
-  resolved "http://registry.m.jd.com/destroy/download/destroy-1.2.0.tgz#4803735509ad8be552934c67df614f94e66fa015"
-  integrity sha1-SANzVQmti+VSk0xn32FPlOZvoBU=
-
-docsify-cli@^4.4.4:
-  version "4.4.4"
-  resolved "http://registry.m.jd.com/docsify-cli/download/docsify-cli-4.4.4.tgz#a9016d59545ec100b46955a72b127e78a888e55d"
-  integrity sha1-qQFtWVRewQC0aVWnKxJ+eKiI5V0=
-  dependencies:
-    chalk "^2.4.2"
-    connect "^3.6.0"
-    connect-history-api-fallback "^1.6.0"
-    connect-livereload "^0.6.0"
-    cp-file "^7.0.0"
-    docsify "^4.12.2"
-    docsify-server-renderer ">=4.10.0"
-    enquirer "^2.3.6"
-    fs-extra "^8.1.0"
-    get-port "^5.0.0"
-    livereload "^0.9.2"
-    lru-cache "^5.1.1"
-    open "^6.4.0"
-    serve-static "^1.12.1"
-    update-notifier "^4.1.0"
-    yargonaut "^1.1.2"
-    yargs "^15.3.0"
-
-docsify-server-renderer@>=4.10.0:
-  version "4.13.1"
-  resolved "http://registry.m.jd.com/docsify-server-renderer/download/docsify-server-renderer-4.13.1.tgz#c643e946780d459b2b26304db7d7289a7700a7f2"
-  integrity sha1-xkPpRngNRZsrJjBNt9comncAp/I=
-  dependencies:
-    debug "^4.3.3"
-    docsify "^4.12.4"
-    node-fetch "^2.6.6"
-    resolve-pathname "^3.0.0"
-
-docsify@^4.12.2, docsify@^4.12.4:
-  version "4.13.1"
-  resolved "http://registry.m.jd.com/docsify/download/docsify-4.13.1.tgz#5ad89d3c0529d336bd1d1c20a664db129afd607a"
-  integrity sha1-WtidPAUp0za9HRwgpmTbEpr9YHo=
-  dependencies:
-    marked "^1.2.9"
-    medium-zoom "^1.0.6"
-    opencollective-postinstall "^2.0.2"
-    prismjs "^1.27.0"
-    strip-indent "^3.0.0"
-    tinydate "^1.3.0"
-    tweezer.js "^1.4.0"
-
-dot-prop@^5.2.0:
-  version "5.3.0"
-  resolved "http://registry.m.jd.com/dot-prop/download/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
-  integrity sha1-kMzOcIzZzYLMTcjD3dmr3VWyDog=
-  dependencies:
-    is-obj "^2.0.0"
-
-duplexer3@^0.1.4:
-  version "0.1.5"
-  resolved "http://registry.m.jd.com/duplexer3/download/duplexer3-0.1.5.tgz#0b5e4d7bad5de8901ea4440624c8e1d20099217e"
-  integrity sha1-C15Ne61d6JAepEQGJMjh0gCZIX4=
-
-ee-first@1.1.1:
+"@mermaid-js/parser@^1.1.1":
   version "1.1.1"
-  resolved "http://registry.m.jd.com/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
-  integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+  resolved "http://registry.m.jd.com/@mermaid-js/parser/download/@mermaid-js/parser-1.1.1.tgz"
+  integrity sha1-MPOraNgWkS5D8kWnKg1Agb9p2WY=
+  dependencies:
+    "@chevrotain/types" "~11.1.1"
 
-emoji-regex@^8.0.0:
-  version "8.0.0"
-  resolved "http://registry.m.jd.com/emoji-regex/download/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
-  integrity sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc=
+"@nodelib/fs.scandir@2.1.5":
+  version "2.1.5"
+  resolved "http://registry.m.jd.com/@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz"
+  integrity sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=
+  dependencies:
+    "@nodelib/fs.stat" "2.0.5"
+    run-parallel "^1.1.9"
 
-encodeurl@~1.0.2:
-  version "1.0.2"
-  resolved "http://registry.m.jd.com/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
-  integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+"@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
+  version "2.0.5"
+  resolved "http://registry.m.jd.com/@nodelib/fs.stat/download/@nodelib/fs.stat-2.0.5.tgz"
+  integrity sha1-W9Jir5Tp0lvR5xsF3u1Eh2oiLos=
 
-encodeurl@~2.0.0:
+"@nodelib/fs.walk@^1.2.3":
+  version "1.2.8"
+  resolved "http://registry.m.jd.com/@nodelib/fs.walk/download/@nodelib/fs.walk-1.2.8.tgz"
+  integrity sha1-6Vc36LtnRt3t9pxVaVNJTxlv5po=
+  dependencies:
+    "@nodelib/fs.scandir" "2.1.5"
+    fastq "^1.6.0"
+
+"@rollup/rollup-darwin-arm64@4.62.2":
+  version "4.62.2"
+  resolved "http://registry.m.jd.com/@rollup/rollup-darwin-arm64/download/@rollup/rollup-darwin-arm64-4.62.2.tgz"
+  integrity sha1-i8UsnXo86NBTPDUanJNd54HaoG8=
+
+"@shikijs/core@^2.1.0", "@shikijs/core@2.5.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/core/download/@shikijs/core-2.5.0.tgz"
+  integrity sha1-4U0zlh36MUE5PUp2/Ikj0NHEti8=
+  dependencies:
+    "@shikijs/engine-javascript" "2.5.0"
+    "@shikijs/engine-oniguruma" "2.5.0"
+    "@shikijs/types" "2.5.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.4"
+    hast-util-to-html "^9.0.4"
+
+"@shikijs/engine-javascript@2.5.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/engine-javascript/download/@shikijs/engine-javascript-2.5.0.tgz"
+  integrity sha1-4EXG7PvabJkTdUewpILguH8QU/w=
+  dependencies:
+    "@shikijs/types" "2.5.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    oniguruma-to-es "^3.1.0"
+
+"@shikijs/engine-oniguruma@2.5.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/engine-oniguruma/download/@shikijs/engine-oniguruma-2.5.0.tgz"
+  integrity sha1-Iw3laTzB2mydWcetg1k8ICcnSBc=
+  dependencies:
+    "@shikijs/types" "2.5.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+
+"@shikijs/langs@2.5.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/langs/download/@shikijs/langs-2.5.0.tgz"
+  integrity sha1-l6tQxJWSLMHKBuGSmFso3HPeXVA=
+  dependencies:
+    "@shikijs/types" "2.5.0"
+
+"@shikijs/themes@2.5.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/themes/download/@shikijs/themes-2.5.0.tgz"
+  integrity sha1-jGrs9z9UVWgci+wVeXz2eBYolss=
+  dependencies:
+    "@shikijs/types" "2.5.0"
+
+"@shikijs/transformers@^2.1.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/transformers/download/@shikijs/transformers-2.5.0.tgz"
+  integrity sha1-GQyEeG/wbEF1gKt5F3M4qUcWjFU=
+  dependencies:
+    "@shikijs/core" "2.5.0"
+    "@shikijs/types" "2.5.0"
+
+"@shikijs/types@^2.1.0", "@shikijs/types@2.5.0":
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/@shikijs/types/download/@shikijs/types-2.5.0.tgz"
+  integrity sha1-6UnHOEgCcDpIudZCXdQWc8Fk32k=
+  dependencies:
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.4"
+
+"@shikijs/vscode-textmate@^10.0.2":
+  version "10.0.2"
+  resolved "http://registry.m.jd.com/@shikijs/vscode-textmate/download/@shikijs/vscode-textmate-10.0.2.tgz"
+  integrity sha1-qQqzHQzB37VMZqaeUVv2JPp7IiQ=
+
+"@types/d3-array@*":
+  version "3.2.2"
+  resolved "http://registry.m.jd.com/@types/d3-array/download/@types/d3-array-3.2.2.tgz"
+  integrity sha1-4CFRRk0C1KG0RkbQ/NuT+viP3ow=
+
+"@types/d3-axis@*":
+  version "3.0.6"
+  resolved "http://registry.m.jd.com/@types/d3-axis/download/@types/d3-axis-3.0.6.tgz"
+  integrity sha1-52DldluBiLHe+jK8i7YGL4Hkx5U=
+  dependencies:
+    "@types/d3-selection" "*"
+
+"@types/d3-brush@*":
+  version "3.0.6"
+  resolved "http://registry.m.jd.com/@types/d3-brush/download/@types/d3-brush-3.0.6.tgz"
+  integrity sha1-wvQ2KwRdRy4bGGzb7DKbpSva7mw=
+  dependencies:
+    "@types/d3-selection" "*"
+
+"@types/d3-chord@*":
+  version "3.0.6"
+  resolved "http://registry.m.jd.com/@types/d3-chord/download/@types/d3-chord-3.0.6.tgz"
+  integrity sha1-FwbKQM9+pZoK3Y9EVu//j4d1eT0=
+
+"@types/d3-color@*":
+  version "3.1.3"
+  resolved "http://registry.m.jd.com/@types/d3-color/download/@types/d3-color-3.1.3.tgz"
+  integrity sha1-NoyWGhjech2oIA6AvzlD+1MTavI=
+
+"@types/d3-contour@*":
+  version "3.0.6"
+  resolved "http://registry.m.jd.com/@types/d3-contour/download/@types/d3-contour-3.0.6.tgz"
+  integrity sha1-mto/qcTQDjpQk/7QNWx6uSlgQjE=
+  dependencies:
+    "@types/d3-array" "*"
+    "@types/geojson" "*"
+
+"@types/d3-delaunay@*":
+  version "6.0.4"
+  resolved "http://registry.m.jd.com/@types/d3-delaunay/download/@types/d3-delaunay-6.0.4.tgz"
+  integrity sha1-GFwagMyAf92io/6WD3wRxKJ5UuE=
+
+"@types/d3-dispatch@*":
+  version "3.0.7"
+  resolved "http://registry.m.jd.com/@types/d3-dispatch/download/@types/d3-dispatch-3.0.7.tgz"
+  integrity sha1-7wBNihKARs/OQ00XGC+DTkTvlbI=
+
+"@types/d3-drag@*":
+  version "3.0.7"
+  resolved "http://registry.m.jd.com/@types/d3-drag/download/@types/d3-drag-3.0.7.tgz"
+  integrity sha1-sTq6iyRCtAaMmp5tHYL4vOp3/AI=
+  dependencies:
+    "@types/d3-selection" "*"
+
+"@types/d3-dsv@*":
+  version "3.0.7"
+  resolved "http://registry.m.jd.com/@types/d3-dsv/download/@types/d3-dsv-3.0.7.tgz"
+  integrity sha1-CjUfmW3Jmzf0+li0ksLRwE49rBc=
+
+"@types/d3-ease@*":
+  version "3.0.2"
+  resolved "http://registry.m.jd.com/@types/d3-ease/download/@types/d3-ease-3.0.2.tgz"
+  integrity sha1-4o2xv7+mFwdvd3DdHZpI6qO2xRs=
+
+"@types/d3-fetch@*":
+  version "3.0.7"
+  resolved "http://registry.m.jd.com/@types/d3-fetch/download/@types/d3-fetch-3.0.7.tgz"
+  integrity sha1-wEorTyMYGqN28wrwKD28eztWmYA=
+  dependencies:
+    "@types/d3-dsv" "*"
+
+"@types/d3-force@*":
+  version "3.0.10"
+  resolved "http://registry.m.jd.com/@types/d3-force/download/@types/d3-force-3.0.10.tgz"
+  integrity sha1-bcj8bh81cE87BXCQvu63rGdL/xo=
+
+"@types/d3-format@*":
+  version "3.0.4"
+  resolved "http://registry.m.jd.com/@types/d3-format/download/@types/d3-format-3.0.4.tgz"
+  integrity sha1-seRGVkTds/3zomP+uyQKbNYW3pA=
+
+"@types/d3-geo@*":
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/@types/d3-geo/download/@types/d3-geo-3.1.0.tgz"
+  integrity sha1-ueVqB5RJF08KLIaEqaTfP2BSJEA=
+  dependencies:
+    "@types/geojson" "*"
+
+"@types/d3-hierarchy@*":
+  version "3.1.7"
+  resolved "http://registry.m.jd.com/@types/d3-hierarchy/download/@types/d3-hierarchy-3.1.7.tgz"
+  integrity sha1-YCP7Oy1GMiny1oD5rEtHRm9x8Xs=
+
+"@types/d3-interpolate@*":
+  version "3.0.4"
+  resolved "http://registry.m.jd.com/@types/d3-interpolate/download/@types/d3-interpolate-3.0.4.tgz"
+  integrity sha1-QSuQ6EhwKF8v+KhGxutgNE8SpBw=
+  dependencies:
+    "@types/d3-color" "*"
+
+"@types/d3-path@*":
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/@types/d3-path/download/@types/d3-path-3.1.1.tgz"
+  integrity sha1-9jKzgMOsoduo40qgSbzWpK8j34o=
+
+"@types/d3-polygon@*":
+  version "3.0.2"
+  resolved "http://registry.m.jd.com/@types/d3-polygon/download/@types/d3-polygon-3.0.2.tgz"
+  integrity sha1-365UptNdGedqyVZbyzKo5UaTGJw=
+
+"@types/d3-quadtree@*":
+  version "3.0.6"
+  resolved "http://registry.m.jd.com/@types/d3-quadtree/download/@types/d3-quadtree-3.0.6.tgz"
+  integrity sha1-1HQLD+NbHFi2bhSI9OftApUvVw8=
+
+"@types/d3-random@*":
+  version "3.0.3"
+  resolved "http://registry.m.jd.com/@types/d3-random/download/@types/d3-random-3.0.3.tgz"
+  integrity sha1-7ZlcceyxXgzTHiLZ1dI5QuMwDPs=
+
+"@types/d3-scale-chromatic@*":
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/@types/d3-scale-chromatic/download/@types/d3-scale-chromatic-3.1.0.tgz"
+  integrity sha1-3G1Pmpg3bxjqULrWw5U38bVGPDk=
+
+"@types/d3-scale@*":
+  version "4.0.9"
+  resolved "http://registry.m.jd.com/@types/d3-scale/download/@types/d3-scale-4.0.9.tgz"
+  integrity sha1-V6L3ByQub+Hega17/Myq9gYXmvs=
+  dependencies:
+    "@types/d3-time" "*"
+
+"@types/d3-selection@*":
+  version "3.0.11"
+  resolved "http://registry.m.jd.com/@types/d3-selection/download/@types/d3-selection-3.0.11.tgz"
+  integrity sha1-vXpF/AqMMWemMWdeYbwsorBY1KM=
+
+"@types/d3-shape@*":
+  version "3.1.8"
+  resolved "http://registry.m.jd.com/@types/d3-shape/download/@types/d3-shape-3.1.8.tgz"
+  integrity sha1-0VFsxQh1O+BoUs0GdY47tUoisOM=
+  dependencies:
+    "@types/d3-path" "*"
+
+"@types/d3-time-format@*":
+  version "4.0.3"
+  resolved "http://registry.m.jd.com/@types/d3-time-format/download/@types/d3-time-format-4.0.3.tgz"
+  integrity sha1-1rwea2p9tpzM+73Uw0twYy2enbI=
+
+"@types/d3-time@*":
+  version "3.0.4"
+  resolved "http://registry.m.jd.com/@types/d3-time/download/@types/d3-time-3.0.4.tgz"
+  integrity sha1-hHL+7NY5aRRQ3YAA6zPt1EThMj8=
+
+"@types/d3-timer@*":
+  version "3.0.2"
+  resolved "http://registry.m.jd.com/@types/d3-timer/download/@types/d3-timer-3.0.2.tgz"
+  integrity sha1-cLvad9wjqnJ0E+IuIUr6Pw6FL3A=
+
+"@types/d3-transition@*":
+  version "3.0.9"
+  resolved "http://registry.m.jd.com/@types/d3-transition/download/@types/d3-transition-3.0.9.tgz"
+  integrity sha1-ETa8V+nds8OQ3MybX/O30rjZRwY=
+  dependencies:
+    "@types/d3-selection" "*"
+
+"@types/d3-zoom@*":
+  version "3.0.8"
+  resolved "http://registry.m.jd.com/@types/d3-zoom/download/@types/d3-zoom-3.0.8.tgz"
+  integrity sha1-3Msy0cVrHhxuDxGA2ZSJbwOLxAs=
+  dependencies:
+    "@types/d3-interpolate" "*"
+    "@types/d3-selection" "*"
+
+"@types/d3@^7.4.3":
+  version "7.4.3"
+  resolved "http://registry.m.jd.com/@types/d3/download/@types/d3-7.4.3.tgz"
+  integrity sha1-1FUKhdCPSXj68KTDa4SMYeqsB+I=
+  dependencies:
+    "@types/d3-array" "*"
+    "@types/d3-axis" "*"
+    "@types/d3-brush" "*"
+    "@types/d3-chord" "*"
+    "@types/d3-color" "*"
+    "@types/d3-contour" "*"
+    "@types/d3-delaunay" "*"
+    "@types/d3-dispatch" "*"
+    "@types/d3-drag" "*"
+    "@types/d3-dsv" "*"
+    "@types/d3-ease" "*"
+    "@types/d3-fetch" "*"
+    "@types/d3-force" "*"
+    "@types/d3-format" "*"
+    "@types/d3-geo" "*"
+    "@types/d3-hierarchy" "*"
+    "@types/d3-interpolate" "*"
+    "@types/d3-path" "*"
+    "@types/d3-polygon" "*"
+    "@types/d3-quadtree" "*"
+    "@types/d3-random" "*"
+    "@types/d3-scale" "*"
+    "@types/d3-scale-chromatic" "*"
+    "@types/d3-selection" "*"
+    "@types/d3-shape" "*"
+    "@types/d3-time" "*"
+    "@types/d3-time-format" "*"
+    "@types/d3-timer" "*"
+    "@types/d3-transition" "*"
+    "@types/d3-zoom" "*"
+
+"@types/estree@1.0.9":
+  version "1.0.9"
+  resolved "http://registry.m.jd.com/@types/estree/download/@types/estree-1.0.9.tgz"
+  integrity sha1-zz8Oh2177hWpOrkluCv1cKOQSiQ=
+
+"@types/geojson@*":
+  version "7946.0.16"
+  resolved "http://registry.m.jd.com/@types/geojson/download/@types/geojson-7946.0.16.tgz"
+  integrity sha1-jr5T1p762nBERU4zBcGQF9l87So=
+
+"@types/hast@^3.0.0", "@types/hast@^3.0.4":
+  version "3.0.4"
+  resolved "http://registry.m.jd.com/@types/hast/download/@types/hast-3.0.4.tgz"
+  integrity sha1-HWs5mTuCzqateDlFsFCMJZA+Fao=
+  dependencies:
+    "@types/unist" "*"
+
+"@types/linkify-it@^5":
+  version "5.0.0"
+  resolved "http://registry.m.jd.com/@types/linkify-it/download/@types/linkify-it-5.0.0.tgz"
+  integrity sha1-IUEwAZcxBs2hw6m5Hu3UzNVGnXY=
+
+"@types/markdown-it@^14.1.2":
+  version "14.1.2"
+  resolved "http://registry.m.jd.com/@types/markdown-it/download/@types/markdown-it-14.1.2.tgz"
+  integrity sha1-V/JTKggABn2bk081IUKaLov7TGE=
+  dependencies:
+    "@types/linkify-it" "^5"
+    "@types/mdurl" "^2"
+
+"@types/mdast@^4.0.0":
+  version "4.0.4"
+  resolved "http://registry.m.jd.com/@types/mdast/download/@types/mdast-4.0.4.tgz"
+  integrity sha1-fM9y7dLxqn3TQ34YDGQ3NYWATdY=
+  dependencies:
+    "@types/unist" "*"
+
+"@types/mdurl@^2":
   version "2.0.0"
-  resolved "http://registry.m.jd.com/encodeurl/download/encodeurl-2.0.0.tgz#7b8ea898077d7e409d3ac45474ea38eaf0857a58"
-  integrity sha1-e46omAd9fkCdOsRUdOo46vCFelg=
+  resolved "http://registry.m.jd.com/@types/mdurl/download/@types/mdurl-2.0.0.tgz"
+  integrity sha1-1Dh4tbICImghY65viXsgRHIzvf0=
 
-end-of-stream@^1.1.0:
-  version "1.4.4"
-  resolved "http://registry.m.jd.com/end-of-stream/download/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
-  integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "http://registry.m.jd.com/@types/trusted-types/download/@types/trusted-types-2.0.7.tgz"
+  integrity sha1-usywepcLkXB986PoumiWxX6tLRE=
+
+"@types/unist@*", "@types/unist@^3.0.0":
+  version "3.0.3"
+  resolved "http://registry.m.jd.com/@types/unist/download/@types/unist-3.0.3.tgz"
+  integrity sha1-rKqw+RnOaczmKcLU7S60rcG2wgw=
+
+"@types/web-bluetooth@^0.0.21":
+  version "0.0.21"
+  resolved "http://registry.m.jd.com/@types/web-bluetooth/download/@types/web-bluetooth-0.0.21.tgz"
+  integrity sha1-UlQzx4Su2bRXqqDuPZKutx80a2M=
+
+"@ungap/structured-clone@^1.0.0":
+  version "1.3.1"
+  resolved "http://registry.m.jd.com/@ungap/structured-clone/download/@ungap/structured-clone-1.3.1.tgz"
+  integrity sha1-Do80hU33lmsJMEoY6AiyOZe7n8E=
+
+"@upsetjs/venn.js@^2.0.0":
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/@upsetjs/venn.js/download/@upsetjs/venn.js-2.0.0.tgz"
+  integrity sha1-O+GSA4zdqSeqT4siq1Gvgqv0fzQ=
+  optionalDependencies:
+    d3-selection "^3.0.0"
+    d3-transition "^3.0.1"
+
+"@vitejs/plugin-vue@^5.2.1":
+  version "5.2.4"
+  resolved "http://registry.m.jd.com/@vitejs/plugin-vue/download/@vitejs/plugin-vue-5.2.4.tgz"
+  integrity sha1-nopRLrF0v8KjM7qVm7+d5CjYmtg=
+
+"@vue/compiler-core@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/compiler-core/download/@vue/compiler-core-3.5.38.tgz"
+  integrity sha1-+2Z51Qpd4Zg5ih3yzp06Se+OgHI=
   dependencies:
-    once "^1.4.0"
+    "@babel/parser" "^7.29.7"
+    "@vue/shared" "3.5.38"
+    entities "^7.0.1"
+    estree-walker "^2.0.2"
+    source-map-js "^1.2.1"
 
-enquirer@^2.3.6:
-  version "2.4.1"
-  resolved "http://registry.m.jd.com/enquirer/download/enquirer-2.4.1.tgz#93334b3fbd74fc7097b224ab4a8fb7e40bf4ae56"
-  integrity sha1-kzNLP710/HCXsiSrSo+35Av0rlY=
+"@vue/compiler-dom@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/compiler-dom/download/@vue/compiler-dom-3.5.38.tgz"
+  integrity sha1-EK1zpwOZpMCd7fRf9qk9Qurchh8=
   dependencies:
-    ansi-colors "^4.1.1"
-    strip-ansi "^6.0.1"
+    "@vue/compiler-core" "3.5.38"
+    "@vue/shared" "3.5.38"
 
-escape-goat@^2.0.0:
-  version "2.1.1"
-  resolved "http://registry.m.jd.com/escape-goat/download/escape-goat-2.1.1.tgz#1b2dc77003676c457ec760b2dc68edb648188675"
-  integrity sha1-Gy3HcANnbEV+x2Cy3GjttkgYhnU=
+"@vue/compiler-sfc@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/compiler-sfc/download/@vue/compiler-sfc-3.5.38.tgz"
+  integrity sha1-KwIDb4nH2wpohTSi6w1Ccox/CcE=
+  dependencies:
+    "@babel/parser" "^7.29.7"
+    "@vue/compiler-core" "3.5.38"
+    "@vue/compiler-dom" "3.5.38"
+    "@vue/compiler-ssr" "3.5.38"
+    "@vue/shared" "3.5.38"
+    estree-walker "^2.0.2"
+    magic-string "^0.30.21"
+    postcss "^8.5.15"
+    source-map-js "^1.2.1"
 
-escape-html@~1.0.3:
+"@vue/compiler-ssr@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/compiler-ssr/download/@vue/compiler-ssr-3.5.38.tgz"
+  integrity sha1-I5daqWQ3UseMBiUnf/qG9YYAMA0=
+  dependencies:
+    "@vue/compiler-dom" "3.5.38"
+    "@vue/shared" "3.5.38"
+
+"@vue/devtools-api@^7.7.0":
+  version "7.7.9"
+  resolved "http://registry.m.jd.com/@vue/devtools-api/download/@vue/devtools-api-7.7.9.tgz"
+  integrity sha1-mZ2+pQ2msAz1mhM28R/cK0PZ4GM=
+  dependencies:
+    "@vue/devtools-kit" "^7.7.9"
+
+"@vue/devtools-kit@^7.7.9":
+  version "7.7.9"
+  resolved "http://registry.m.jd.com/@vue/devtools-kit/download/@vue/devtools-kit-7.7.9.tgz"
+  integrity sha1-vCGKgVYW6Jh996s+EPwfs7hwbFg=
+  dependencies:
+    "@vue/devtools-shared" "^7.7.9"
+    birpc "^2.3.0"
+    hookable "^5.5.3"
+    mitt "^3.0.1"
+    perfect-debounce "^1.0.0"
+    speakingurl "^14.0.1"
+    superjson "^2.2.2"
+
+"@vue/devtools-shared@^7.7.9":
+  version "7.7.9"
+  resolved "http://registry.m.jd.com/@vue/devtools-shared/download/@vue/devtools-shared-7.7.9.tgz"
+  integrity sha1-+kwJa3RJJwgafdpfzwXzSxrmyhQ=
+  dependencies:
+    rfdc "^1.4.1"
+
+"@vue/reactivity@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/reactivity/download/@vue/reactivity-3.5.38.tgz"
+  integrity sha1-cc+It2Sm1TNN0n1ayfApyBzU/DQ=
+  dependencies:
+    "@vue/shared" "3.5.38"
+
+"@vue/runtime-core@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/runtime-core/download/@vue/runtime-core-3.5.38.tgz"
+  integrity sha1-JlYKh2ucAlHlf3oF+SY+Yj8kT5w=
+  dependencies:
+    "@vue/reactivity" "3.5.38"
+    "@vue/shared" "3.5.38"
+
+"@vue/runtime-dom@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/runtime-dom/download/@vue/runtime-dom-3.5.38.tgz"
+  integrity sha1-euxwvQE+QxZunM7NSh8Jb9jKEfs=
+  dependencies:
+    "@vue/reactivity" "3.5.38"
+    "@vue/runtime-core" "3.5.38"
+    "@vue/shared" "3.5.38"
+    csstype "^3.2.3"
+
+"@vue/server-renderer@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/server-renderer/download/@vue/server-renderer-3.5.38.tgz"
+  integrity sha1-XSSlMF53alMDj8dy+9nRIFwjZYg=
+  dependencies:
+    "@vue/compiler-ssr" "3.5.38"
+    "@vue/shared" "3.5.38"
+
+"@vue/shared@^3.5.13", "@vue/shared@3.5.38":
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/@vue/shared/download/@vue/shared-3.5.38.tgz"
+  integrity sha1-bEvk3v2GzcNb+it91F17EaXVEQE=
+
+"@vueuse/core@^12.4.0", "@vueuse/core@12.8.2":
+  version "12.8.2"
+  resolved "http://registry.m.jd.com/@vueuse/core/download/@vueuse/core-12.8.2.tgz"
+  integrity sha1-AHxt0pp9H2kz6RbnovjvPD+Wjqo=
+  dependencies:
+    "@types/web-bluetooth" "^0.0.21"
+    "@vueuse/metadata" "12.8.2"
+    "@vueuse/shared" "12.8.2"
+    vue "^3.5.13"
+
+"@vueuse/integrations@^12.4.0":
+  version "12.8.2"
+  resolved "http://registry.m.jd.com/@vueuse/integrations/download/@vueuse/integrations-12.8.2.tgz"
+  integrity sha1-0E8z2G/phcmifJit3P3p8w8tsd8=
+  dependencies:
+    "@vueuse/core" "12.8.2"
+    "@vueuse/shared" "12.8.2"
+    vue "^3.5.13"
+
+"@vueuse/metadata@12.8.2":
+  version "12.8.2"
+  resolved "http://registry.m.jd.com/@vueuse/metadata/download/@vueuse/metadata-12.8.2.tgz"
+  integrity sha1-bLOk6Xzc9SgynuvBvac81/ZDGNM=
+
+"@vueuse/shared@12.8.2":
+  version "12.8.2"
+  resolved "http://registry.m.jd.com/@vueuse/shared/download/@vueuse/shared-12.8.2.tgz"
+  integrity sha1-ueRhHQYDYpyOFR+YJFnaOU4i+TA=
+  dependencies:
+    vue "^3.5.13"
+
+algoliasearch@^5.14.2, "algoliasearch@>= 4.9.1 < 6":
+  version "5.53.0"
+  resolved "http://registry.m.jd.com/algoliasearch/download/algoliasearch-5.53.0.tgz"
+  integrity sha1-OT0ZkPwdMWTSaEwJsRx5feD7sMk=
+  dependencies:
+    "@algolia/abtesting" "1.19.0"
+    "@algolia/client-abtesting" "5.53.0"
+    "@algolia/client-analytics" "5.53.0"
+    "@algolia/client-common" "5.53.0"
+    "@algolia/client-insights" "5.53.0"
+    "@algolia/client-personalization" "5.53.0"
+    "@algolia/client-query-suggestions" "5.53.0"
+    "@algolia/client-search" "5.53.0"
+    "@algolia/ingestion" "1.53.0"
+    "@algolia/monitoring" "1.53.0"
+    "@algolia/recommend" "5.53.0"
+    "@algolia/requester-browser-xhr" "5.53.0"
+    "@algolia/requester-fetch" "5.53.0"
+    "@algolia/requester-node-http" "5.53.0"
+
+array-union@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/array-union/download/array-union-2.1.0.tgz"
+  integrity sha1-t5hCCtvrHego2ErNii4j0+/oXo0=
+
+async@^3.2.4:
+  version "3.2.6"
+  resolved "http://registry.m.jd.com/async/download/async-3.2.6.tgz"
+  integrity sha1-Gwco4Ukp1RuFtEm38G4nwRReOM4=
+
+birpc@^2.3.0:
+  version "2.9.0"
+  resolved "http://registry.m.jd.com/birpc/download/birpc-2.9.0.tgz"
+  integrity sha1-tZVQiX5M2WoiPipsFHW1ciNu0UU=
+
+braces@^3.0.3:
+  version "3.0.3"
+  resolved "http://registry.m.jd.com/braces/download/braces-3.0.3.tgz"
+  integrity sha1-SQMy9AkZRSJy1VqEgK3AxEE1h4k=
+  dependencies:
+    fill-range "^7.1.1"
+
+ccount@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/ccount/download/ccount-2.0.1.tgz"
+  integrity sha1-F6O/gjAuCHDW2kOgExGovAKj7PU=
+
+character-entities-html4@^2.0.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/character-entities-html4/download/character-entities-html4-2.1.0.tgz"
+  integrity sha1-HxrblAyXGksiujndymthjcblays=
+
+character-entities-legacy@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/character-entities-legacy/download/character-entities-legacy-3.0.0.tgz"
+  integrity sha1-dryDqQc4kB17wiOp6TdZ/dVgEls=
+
+comma-separated-tokens@^2.0.0:
+  version "2.0.3"
+  resolved "http://registry.m.jd.com/comma-separated-tokens/download/comma-separated-tokens-2.0.3.tgz"
+  integrity sha1-TonJRYrLYbyP7xn0UplzsjkoOe4=
+
+commander@^13.0.0:
+  version "13.1.0"
+  resolved "http://registry.m.jd.com/commander/download/commander-13.1.0.tgz"
+  integrity sha1-d2Fn22jHjzjczh+bjXuLmkiKv0Y=
+
+commander@^8.3.0:
+  version "8.3.0"
+  resolved "http://registry.m.jd.com/commander/download/commander-8.3.0.tgz"
+  integrity sha1-SDfqGy2me5xhamevuw+v7lZ7ymY=
+
+commander@7:
+  version "7.2.0"
+  resolved "http://registry.m.jd.com/commander/download/commander-7.2.0.tgz"
+  integrity sha1-o2y1fQtQHOEI5NIFWaFQo5HZerc=
+
+commondir@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/commondir/download/commondir-1.0.1.tgz"
+  integrity sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=
+
+copy-anything@^4:
+  version "4.0.5"
+  resolved "http://registry.m.jd.com/copy-anything/download/copy-anything-4.0.5.tgz"
+  integrity sha1-Fsq6/R6kuzJ6VAt1DytN9SKCWuo=
+  dependencies:
+    is-what "^5.2.0"
+
+cose-base@^1.0.0:
   version "1.0.3"
-  resolved "http://registry.m.jd.com/escape-html/download/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
-  integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+  resolved "http://registry.m.jd.com/cose-base/download/cose-base-1.0.3.tgz"
+  integrity sha1-ZQM0tBuGlXilQzWLgM2n4Kvgpgo=
+  dependencies:
+    layout-base "^1.0.0"
 
-escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
+cose-base@^2.2.0:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/cose-base/download/cose-base-2.2.0.tgz"
+  integrity sha1-HDlcNbbhC7g/l2nKi4F9YUrdXAE=
+  dependencies:
+    layout-base "^2.0.0"
+
+csstype@^3.2.3:
+  version "3.2.3"
+  resolved "http://registry.m.jd.com/csstype/download/csstype-3.2.3.tgz"
+  integrity sha1-7EjA8+mT5QZIyG2lWeJhCZXPmJo=
+
+cytoscape-cose-bilkent@^4.1.0:
+  version "4.1.0"
+  resolved "http://registry.m.jd.com/cytoscape-cose-bilkent/download/cytoscape-cose-bilkent-4.1.0.tgz"
+  integrity sha1-di+hId+ZMP/rUaSV2HkXxXCsIJs=
+  dependencies:
+    cose-base "^1.0.0"
+
+cytoscape-fcose@^2.1.0, cytoscape-fcose@^2.2.0:
+  version "2.2.0"
+  resolved "http://registry.m.jd.com/cytoscape-fcose/download/cytoscape-fcose-2.2.0.tgz"
+  integrity sha1-5Nb2SQ30+rWK6c6p5cOrjXRy9HE=
+  dependencies:
+    cose-base "^2.2.0"
+
+cytoscape@^3.2.0, cytoscape@^3.23.0, cytoscape@^3.33.1:
+  version "3.34.0"
+  resolved "http://registry.m.jd.com/cytoscape/download/cytoscape-3.34.0.tgz"
+  integrity sha1-X74usc92sHCo7NVkfDX2WqCXycY=
+
+d3-array@^3.2.0, "d3-array@2 - 3", "d3-array@2.10.0 - 3", "d3-array@2.5.0 - 3", d3-array@3:
+  version "3.2.4"
+  resolved "http://registry.m.jd.com/d3-array/download/d3-array-3.2.4.tgz"
+  integrity sha1-Ff7DOyN/l6xdfJhtx32ic6jtC7U=
+  dependencies:
+    internmap "1 - 2"
+
+"d3-array@1 - 2":
+  version "2.12.1"
+  resolved "http://registry.m.jd.com/d3-array/download/d3-array-2.12.1.tgz"
+  integrity sha1-4gtBqvzf/fXVCSgATs7PgVpGXoE=
+  dependencies:
+    internmap "^1.0.0"
+
+d3-axis@3:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/d3-axis/download/d3-axis-3.0.0.tgz"
+  integrity sha1-xCpKE+gTHWN7dF/Clzgkz+r5MyI=
+
+d3-brush@3:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/d3-brush/download/d3-brush-3.0.0.tgz"
+  integrity sha1-b3Z8Ttjct53n7ePhwPieY+9k0xw=
+  dependencies:
+    d3-dispatch "1 - 3"
+    d3-drag "2 - 3"
+    d3-interpolate "1 - 3"
+    d3-selection "3"
+    d3-transition "3"
+
+d3-chord@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-chord/download/d3-chord-3.0.1.tgz"
+  integrity sha1-0VbWH0hfzoMn5qvzOctB2Mu6aWY=
+  dependencies:
+    d3-path "1 - 3"
+
+"d3-color@1 - 3", d3-color@3:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/d3-color/download/d3-color-3.1.0.tgz"
+  integrity sha1-OVsoM9+scVB/EqwvevI7+BneJOI=
+
+d3-contour@4:
+  version "4.0.2"
+  resolved "http://registry.m.jd.com/d3-contour/download/d3-contour-4.0.2.tgz"
+  integrity sha1-u5IGO8jFZjrLJCL5nHPLtsauO8w=
+  dependencies:
+    d3-array "^3.2.0"
+
+d3-delaunay@6:
+  version "6.0.4"
+  resolved "http://registry.m.jd.com/d3-delaunay/download/d3-delaunay-6.0.4.tgz"
+  integrity sha1-mBaQOHM6ClurvtpVBU95W7nkpYs=
+  dependencies:
+    delaunator "5"
+
+"d3-dispatch@1 - 3", d3-dispatch@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-dispatch/download/d3-dispatch-3.0.1.tgz"
+  integrity sha1-X8dShOnCN1w2yDlBGgz1UMv8TV4=
+
+"d3-drag@2 - 3", d3-drag@3:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/d3-drag/download/d3-drag-3.0.0.tgz"
+  integrity sha1-mUqunNI8cZ9TteEOOgphCMaWB7o=
+  dependencies:
+    d3-dispatch "1 - 3"
+    d3-selection "3"
+
+"d3-dsv@1 - 3", d3-dsv@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-dsv/download/d3-dsv-3.0.1.tgz"
+  integrity sha1-xjr5ePTWoNCEpSpnOSK+IWB4m3M=
+  dependencies:
+    commander "7"
+    iconv-lite "0.6"
+    rw "1"
+
+"d3-ease@1 - 3", d3-ease@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-ease/download/d3-ease-3.0.1.tgz"
+  integrity sha1-llisOKIUDVnTRhYPH2ww/aC9EvQ=
+
+d3-fetch@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-fetch/download/d3-fetch-3.0.1.tgz"
+  integrity sha1-gxQb/5hWoO21443onNz+Y9CmCiI=
+  dependencies:
+    d3-dsv "1 - 3"
+
+d3-force@3:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/d3-force/download/d3-force-3.0.0.tgz"
+  integrity sha1-Piuhph5wiI/j2RlOMNbRTuzhVcQ=
+  dependencies:
+    d3-dispatch "1 - 3"
+    d3-quadtree "1 - 3"
+    d3-timer "1 - 3"
+
+"d3-format@1 - 3", d3-format@3:
+  version "3.1.2"
+  resolved "http://registry.m.jd.com/d3-format/download/d3-format-3.1.2.tgz"
+  integrity sha1-Af20a1i+sfVbELQq1wtuNE1esq4=
+
+d3-geo@3:
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/d3-geo/download/d3-geo-3.1.1.tgz"
+  integrity sha1-YCfPUSRvmy69ZPmeAdx8M2QDOk0=
+  dependencies:
+    d3-array "2.5.0 - 3"
+
+d3-hierarchy@3:
+  version "3.1.2"
+  resolved "http://registry.m.jd.com/d3-hierarchy/download/d3-hierarchy-3.1.2.tgz"
+  integrity sha1-sBzULB7tPUbbd6WWbPcm+MCRYMY=
+
+"d3-interpolate@1 - 3", "d3-interpolate@1.2.0 - 3", d3-interpolate@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-interpolate/download/d3-interpolate-3.0.1.tgz"
+  integrity sha1-PEeqWzLFs9+1bvP9Q0IHimMrQA0=
+  dependencies:
+    d3-color "1 - 3"
+
+d3-path@^3.1.0, "d3-path@1 - 3", d3-path@3:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/d3-path/download/d3-path-3.1.0.tgz"
+  integrity sha1-It+TkDL7WnGuixgA1h3beFHEJSY=
+
+d3-path@1:
+  version "1.0.9"
+  resolved "http://registry.m.jd.com/d3-path/download/d3-path-1.0.9.tgz"
+  integrity sha1-SMBQux/owmJJOoyvVSTj6VkXAc8=
+
+d3-polygon@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-polygon/download/d3-polygon-3.0.1.tgz"
+  integrity sha1-C0XT3RxIopyOBX5hNWk+yAvxY5g=
+
+"d3-quadtree@1 - 3", d3-quadtree@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-quadtree/download/d3-quadtree-3.0.1.tgz"
+  integrity sha1-bco+i+Kzk8mp1RTau9gKkt7vGk8=
+
+d3-random@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-random/download/d3-random-3.0.1.tgz"
+  integrity sha1-1JJjeNMz2cC/0eb6AZTTCuuqIPQ=
+
+d3-sankey@^0.12.3:
+  version "0.12.3"
+  resolved "http://registry.m.jd.com/d3-sankey/download/d3-sankey-0.12.3.tgz"
+  integrity sha1-s8JoYnvXLl2AM26N5qy/7J0V0B0=
+  dependencies:
+    d3-array "1 - 2"
+    d3-shape "^1.2.0"
+
+d3-scale-chromatic@3:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/d3-scale-chromatic/download/d3-scale-chromatic-3.1.0.tgz"
+  integrity sha1-NMOdopiyPCDgLxpLI5vQ8i5/ExQ=
+  dependencies:
+    d3-color "1 - 3"
+    d3-interpolate "1 - 3"
+
+d3-scale@4:
+  version "4.0.2"
+  resolved "http://registry.m.jd.com/d3-scale/download/d3-scale-4.0.2.tgz"
+  integrity sha1-grOOjo/3CAdk+Nzsd71L45Nok5Y=
+  dependencies:
+    d3-array "2.10.0 - 3"
+    d3-format "1 - 3"
+    d3-interpolate "1.2.0 - 3"
+    d3-time "2.1.1 - 3"
+    d3-time-format "2 - 4"
+
+d3-selection@^3.0.0, "d3-selection@2 - 3", d3-selection@3:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/d3-selection/download/d3-selection-3.0.0.tgz"
+  integrity sha1-wlM4IH76csxbm9FFihpBkB8eGzE=
+
+d3-shape@^1.2.0:
+  version "1.3.7"
+  resolved "http://registry.m.jd.com/d3-shape/download/d3-shape-1.3.7.tgz"
+  integrity sha1-32OAG+B7yYa8VPY3ibT+UCmStdc=
+  dependencies:
+    d3-path "1"
+
+d3-shape@3:
+  version "3.2.0"
+  resolved "http://registry.m.jd.com/d3-shape/download/d3-shape-3.2.0.tgz"
+  integrity sha1-oag5y9m6RfKGdMadf4Vbz5HfxqU=
+  dependencies:
+    d3-path "^3.1.0"
+
+"d3-time-format@2 - 4", d3-time-format@4:
+  version "4.1.0"
+  resolved "http://registry.m.jd.com/d3-time-format/download/d3-time-format-4.1.0.tgz"
+  integrity sha1-erUlelBB0R7LT+cKXH0WoZW7QIo=
+  dependencies:
+    d3-time "1 - 3"
+
+"d3-time@1 - 3", "d3-time@2.1.1 - 3", d3-time@3:
+  version "3.1.0"
+  resolved "http://registry.m.jd.com/d3-time/download/d3-time-3.1.0.tgz"
+  integrity sha1-kxDbVumS48AXXh7zheVF5Iqbtcc=
+  dependencies:
+    d3-array "2 - 3"
+
+"d3-timer@1 - 3", d3-timer@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-timer/download/d3-timer-3.0.1.tgz"
+  integrity sha1-YoTSonCChbGrt+IB7aQ4CvNeY7A=
+
+d3-transition@^3.0.1, "d3-transition@2 - 3", d3-transition@3:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/d3-transition/download/d3-transition-3.0.1.tgz"
+  integrity sha1-aGn93hRIhoB3/dWYkgDLYbKhZF8=
+  dependencies:
+    d3-color "1 - 3"
+    d3-dispatch "1 - 3"
+    d3-ease "1 - 3"
+    d3-interpolate "1 - 3"
+    d3-timer "1 - 3"
+
+d3-zoom@3:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/d3-zoom/download/d3-zoom-3.0.0.tgz"
+  integrity sha1-0T9BZccyF//qpUKVzWlps+eu6PM=
+  dependencies:
+    d3-dispatch "1 - 3"
+    d3-drag "2 - 3"
+    d3-interpolate "1 - 3"
+    d3-selection "2 - 3"
+    d3-transition "2 - 3"
+
+d3@^7.0.0, d3@^7.9.0:
+  version "7.9.0"
+  resolved "http://registry.m.jd.com/d3/download/d3-7.9.0.tgz"
+  integrity sha1-V556yz10nK+IYL0XQa6NNxBwzV0=
+  dependencies:
+    d3-array "3"
+    d3-axis "3"
+    d3-brush "3"
+    d3-chord "3"
+    d3-color "3"
+    d3-contour "4"
+    d3-delaunay "6"
+    d3-dispatch "3"
+    d3-drag "3"
+    d3-dsv "3"
+    d3-ease "3"
+    d3-fetch "3"
+    d3-force "3"
+    d3-format "3"
+    d3-geo "3"
+    d3-hierarchy "3"
+    d3-interpolate "3"
+    d3-path "3"
+    d3-polygon "3"
+    d3-quadtree "3"
+    d3-random "3"
+    d3-scale "4"
+    d3-scale-chromatic "3"
+    d3-selection "3"
+    d3-shape "3"
+    d3-time "3"
+    d3-time-format "4"
+    d3-timer "3"
+    d3-transition "3"
+    d3-zoom "3"
+
+dagre-d3-es@7.0.14:
+  version "7.0.14"
+  resolved "http://registry.m.jd.com/dagre-d3-es/download/dagre-d3-es-7.0.14.tgz"
+  integrity sha1-EnInbiZFfPO5faxWn48FMewzw3c=
+  dependencies:
+    d3 "^7.9.0"
+    lodash-es "^4.17.21"
+
+dayjs@^1.11.19:
+  version "1.11.21"
+  resolved "http://registry.m.jd.com/dayjs/download/dayjs-1.11.21.tgz"
+  integrity sha1-V/h1YuYt5288cEvSuNUi/DMGjrI=
+
+delaunator@5:
+  version "5.1.0"
+  resolved "http://registry.m.jd.com/delaunator/download/delaunator-5.1.0.tgz"
+  integrity sha1-0TJx+/Ov9nU/nqbiNVV/IJAQRuo=
+  dependencies:
+    robust-predicates "^3.0.2"
+
+dequal@^2.0.0:
+  version "2.0.3"
+  resolved "http://registry.m.jd.com/dequal/download/dequal-2.0.3.tgz"
+  integrity sha1-JkQhTxmX057Q7g7OcjNUkKesZ74=
+
+devlop@^1.0.0:
+  version "1.1.0"
+  resolved "http://registry.m.jd.com/devlop/download/devlop-1.1.0.tgz"
+  integrity sha1-TbfCyk3G4Og0wwvnDJS7yXbccBg=
+  dependencies:
+    dequal "^2.0.0"
+
+dir-glob@^3.0.1:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/dir-glob/download/dir-glob-3.0.1.tgz"
+  integrity sha1-Vtv3PZkqSpO6FYT0U0Bj/S5BcX8=
+  dependencies:
+    path-type "^4.0.0"
+
+dompurify@^3.3.1:
+  version "3.4.11"
+  resolved "http://registry.m.jd.com/dompurify/download/dompurify-3.4.11.tgz"
+  integrity sha1-Kci6SWR18nnvQBV4QGhFL7FKBoA=
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
+
+email-addresses@^5.0.0:
+  version "5.0.0"
+  resolved "http://registry.m.jd.com/email-addresses/download/email-addresses-5.0.0.tgz"
+  integrity sha1-eunn9Y7vfV4+LCwtPqSbeNyFT6Y=
+
+emoji-regex-xs@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/emoji-regex-xs/download/emoji-regex-xs-1.0.0.tgz"
+  integrity sha1-6K8i5dnb1/fyLSgK89GdKqtbByQ=
+
+entities@^7.0.1:
+  version "7.0.1"
+  resolved "http://registry.m.jd.com/entities/download/entities-7.0.1.tgz"
+  integrity sha1-JuioiInbY0F9y5oeeaPxvJK1l2s=
+
+es-toolkit@^1.45.1:
+  version "1.48.1"
+  resolved "http://registry.m.jd.com/es-toolkit/download/es-toolkit-1.48.1.tgz"
+  integrity sha1-Top8Ow/jqA9NZAk0yFUiOPJUMMc=
+
+esbuild@^0.21.3:
+  version "0.21.5"
+  resolved "http://registry.m.jd.com/esbuild/download/esbuild-0.21.5.tgz"
+  integrity sha1-nKMBsSCSKVm3ZjYNisgw2g0CmX0=
+  optionalDependencies:
+    "@esbuild/aix-ppc64" "0.21.5"
+    "@esbuild/android-arm" "0.21.5"
+    "@esbuild/android-arm64" "0.21.5"
+    "@esbuild/android-x64" "0.21.5"
+    "@esbuild/darwin-arm64" "0.21.5"
+    "@esbuild/darwin-x64" "0.21.5"
+    "@esbuild/freebsd-arm64" "0.21.5"
+    "@esbuild/freebsd-x64" "0.21.5"
+    "@esbuild/linux-arm" "0.21.5"
+    "@esbuild/linux-arm64" "0.21.5"
+    "@esbuild/linux-ia32" "0.21.5"
+    "@esbuild/linux-loong64" "0.21.5"
+    "@esbuild/linux-mips64el" "0.21.5"
+    "@esbuild/linux-ppc64" "0.21.5"
+    "@esbuild/linux-riscv64" "0.21.5"
+    "@esbuild/linux-s390x" "0.21.5"
+    "@esbuild/linux-x64" "0.21.5"
+    "@esbuild/netbsd-x64" "0.21.5"
+    "@esbuild/openbsd-x64" "0.21.5"
+    "@esbuild/sunos-x64" "0.21.5"
+    "@esbuild/win32-arm64" "0.21.5"
+    "@esbuild/win32-ia32" "0.21.5"
+    "@esbuild/win32-x64" "0.21.5"
+
+escape-string-regexp@^1.0.2:
   version "1.0.5"
-  resolved "http://registry.m.jd.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+  resolved "http://registry.m.jd.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-etag@~1.8.1:
-  version "1.8.1"
-  resolved "http://registry.m.jd.com/etag/download/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
-  integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+estree-walker@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.m.jd.com/estree-walker/download/estree-walker-2.0.2.tgz"
+  integrity sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
 
-figlet@^1.1.1:
-  version "1.11.0"
-  resolved "http://registry.m.jd.com/figlet/download/figlet-1.11.0.tgz#17b8a438ac75bfdbfbae79ecbc422e6e98d383fa"
-  integrity sha1-F7ikOKx1v9v7rnnsvEIubpjTg/o=
+fast-glob@^3.2.9:
+  version "3.3.3"
+  resolved "http://registry.m.jd.com/fast-glob/download/fast-glob-3.3.3.tgz"
+  integrity sha1-0G1YXOjbqQoWsFBcVDw8z7OuuBg=
   dependencies:
-    commander "^14.0.0"
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.2"
+    merge2 "^1.3.0"
+    micromatch "^4.0.8"
 
-fill-range@^7.0.1:
-  version "7.0.1"
-  resolved "http://registry.m.jd.com/fill-range/download/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
-  integrity sha1-GRmmp8df44ssfHflGYU12prN2kA=
+fastq@^1.6.0:
+  version "1.20.1"
+  resolved "http://registry.m.jd.com/fastq/download/fastq-1.20.1.tgz"
+  integrity sha1-ynUKENySW8ixiDn9ID4+9LPO1nU=
+  dependencies:
+    reusify "^1.0.4"
+
+filename-reserved-regex@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.m.jd.com/filename-reserved-regex/download/filename-reserved-regex-2.0.0.tgz"
+  integrity sha1-q/c9+rc10EVECr/qLZHzieu/oik=
+
+filenamify@^4.3.0:
+  version "4.3.0"
+  resolved "http://registry.m.jd.com/filenamify/download/filenamify-4.3.0.tgz"
+  integrity sha1-YjkctY8CsJlxydT51js8+augMQY=
+  dependencies:
+    filename-reserved-regex "^2.0.0"
+    strip-outer "^1.0.1"
+    trim-repeated "^1.0.0"
+
+fill-range@^7.1.1:
+  version "7.1.1"
+  resolved "http://registry.m.jd.com/fill-range/download/fill-range-7.1.1.tgz"
+  integrity sha1-RCZdPKwH4+p9wkdRY4BkN1SgUpI=
   dependencies:
     to-regex-range "^5.0.1"
 
-finalhandler@1.1.2:
-  version "1.1.2"
-  resolved "http://registry.m.jd.com/finalhandler/download/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
-  integrity sha1-t+fQAP/RGTjQ/bBTUG9uur6fWH0=
+find-cache-dir@^3.3.1:
+  version "3.3.2"
+  resolved "http://registry.m.jd.com/find-cache-dir/download/find-cache-dir-3.3.2.tgz"
+  integrity sha1-swxbbv8HMHMa6pu9nb7L2AJW1ks=
   dependencies:
-    debug "2.6.9"
-    encodeurl "~1.0.2"
-    escape-html "~1.0.3"
-    on-finished "~2.3.0"
-    parseurl "~1.3.3"
-    statuses "~1.5.0"
-    unpipe "~1.0.0"
+    commondir "^1.0.1"
+    make-dir "^3.0.2"
+    pkg-dir "^4.1.0"
 
-find-up@^4.1.0:
+find-up@^4.0.0:
   version "4.1.0"
-  resolved "http://registry.m.jd.com/find-up/download/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  resolved "http://registry.m.jd.com/find-up/download/find-up-4.1.0.tgz"
   integrity sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk=
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-fresh@~0.5.2:
-  version "0.5.2"
-  resolved "http://registry.m.jd.com/fresh/download/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
-  integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+focus-trap@^7, focus-trap@^7.6.4:
+  version "7.8.0"
+  resolved "http://registry.m.jd.com/focus-trap/download/focus-trap-7.8.0.tgz"
+  integrity sha1-sdlGP6Qrk616UiPXUEk6bAm2cqg=
+  dependencies:
+    tabbable "^6.4.0"
 
-fs-extra@^8.1.0:
-  version "8.1.0"
-  resolved "http://registry.m.jd.com/fs-extra/download/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
-  integrity sha1-SdQ8RaiM2Wd2aMt74bRu/bjS4cA=
+fs-extra@^11.1.1:
+  version "11.3.5"
+  resolved "http://registry.m.jd.com/fs-extra/download/fs-extra-11.3.5.tgz"
+  integrity sha1-B6RO/0C+pT5xmQmlMvkaI78Haf8=
   dependencies:
     graceful-fs "^4.2.0"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
 
-fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "http://registry.m.jd.com/fsevents/download/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
-  integrity sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
+fsevents@~2.3.2, fsevents@~2.3.3:
+  version "2.3.3"
+  resolved "http://registry.m.jd.com/fsevents/download/fsevents-2.3.3.tgz"
+  integrity sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=
 
-get-caller-file@^2.0.1:
-  version "2.0.5"
-  resolved "http://registry.m.jd.com/get-caller-file/download/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
-  integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
-
-get-port@^5.0.0:
-  version "5.1.1"
-  resolved "http://registry.m.jd.com/get-port/download/get-port-5.1.1.tgz#0469ed07563479de6efb986baf053dcd7d4e3193"
-  integrity sha1-BGntB1Y0ed5u+5hrrwU9zX1OMZM=
-
-get-stream@^4.1.0:
-  version "4.1.0"
-  resolved "http://registry.m.jd.com/get-stream/download/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
-  integrity sha1-wbJVV189wh1Zv8ec09K0axw6VLU=
+gh-pages@^6.3.0:
+  version "6.3.0"
+  resolved "http://registry.m.jd.com/gh-pages/download/gh-pages-6.3.0.tgz"
+  integrity sha1-pblHbdQ4XOr4XGRnsuBTlwk+dhM=
   dependencies:
-    pump "^3.0.0"
+    async "^3.2.4"
+    commander "^13.0.0"
+    email-addresses "^5.0.0"
+    filenamify "^4.3.0"
+    find-cache-dir "^3.3.1"
+    fs-extra "^11.1.1"
+    globby "^11.1.0"
 
-get-stream@^5.1.0:
-  version "5.2.0"
-  resolved "http://registry.m.jd.com/get-stream/download/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
-  integrity sha1-SWaheV7lrOZecGxLe+txJX1uItM=
-  dependencies:
-    pump "^3.0.0"
-
-glob-parent@~5.1.2:
+glob-parent@^5.1.2:
   version "5.1.2"
-  resolved "http://registry.m.jd.com/glob-parent/download/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  resolved "http://registry.m.jd.com/glob-parent/download/glob-parent-5.1.2.tgz"
   integrity sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ=
   dependencies:
     is-glob "^4.0.1"
 
-global-dirs@^2.0.1:
-  version "2.1.0"
-  resolved "http://registry.m.jd.com/global-dirs/download/global-dirs-2.1.0.tgz#e9046a49c806ff04d6c1825e196c8f0091e8df4d"
-  integrity sha1-6QRqScgG/wTWwYJeGWyPAJHo300=
+globby@^11.1.0:
+  version "11.1.0"
+  resolved "http://registry.m.jd.com/globby/download/globby-11.1.0.tgz"
+  integrity sha1-vUvpi7BC+D15b344EZkfvoKg00s=
   dependencies:
-    ini "1.3.7"
+    array-union "^2.1.0"
+    dir-glob "^3.0.1"
+    fast-glob "^3.2.9"
+    ignore "^5.2.0"
+    merge2 "^1.4.1"
+    slash "^3.0.0"
 
-got@^9.6.0:
-  version "9.6.0"
-  resolved "http://registry.m.jd.com/got/download/got-9.6.0.tgz#edf45e7d67f99545705de1f7bbeeeb121765ed85"
-  integrity sha1-7fRefWf5lUVwXeH3u+7rEhdl7YU=
-  dependencies:
-    "@sindresorhus/is" "^0.14.0"
-    "@szmarczak/http-timer" "^1.1.2"
-    cacheable-request "^6.0.0"
-    decompress-response "^3.3.0"
-    duplexer3 "^0.1.4"
-    get-stream "^4.1.0"
-    lowercase-keys "^1.0.1"
-    mimic-response "^1.0.1"
-    p-cancelable "^1.0.0"
-    to-readable-stream "^1.0.0"
-    url-parse-lax "^3.0.0"
-
-graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.11"
-  resolved "http://registry.m.jd.com/graceful-fs/download/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
+  resolved "http://registry.m.jd.com/graceful-fs/download/graceful-fs-4.2.11.tgz"
   integrity sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM=
 
-has-ansi@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/has-ansi/download/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
-  integrity sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
-  dependencies:
-    ansi-regex "^2.0.0"
+hachure-fill@^0.5.2:
+  version "0.5.2"
+  resolved "http://registry.m.jd.com/hachure-fill/download/hachure-fill-0.5.2.tgz"
+  integrity sha1-0ZvEzIdQpZYrR/sTAFV6hfz5NMw=
 
-has-flag@^3.0.0:
+hast-util-to-html@^9.0.4:
+  version "9.0.5"
+  resolved "http://registry.m.jd.com/hast-util-to-html/download/hast-util-to-html-9.0.5.tgz"
+  integrity sha1-zMZzpVu46Fd1sIrCg4D3LUcWcAU=
+  dependencies:
+    "@types/hast" "^3.0.0"
+    "@types/unist" "^3.0.0"
+    ccount "^2.0.0"
+    comma-separated-tokens "^2.0.0"
+    hast-util-whitespace "^3.0.0"
+    html-void-elements "^3.0.0"
+    mdast-util-to-hast "^13.0.0"
+    property-information "^7.0.0"
+    space-separated-tokens "^2.0.0"
+    stringify-entities "^4.0.0"
+    zwitch "^2.0.4"
+
+hast-util-whitespace@^3.0.0:
   version "3.0.0"
-  resolved "http://registry.m.jd.com/has-flag/download/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
-  integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
-
-has-flag@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.m.jd.com/has-flag/download/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
-  integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
-
-has-yarn@^2.1.0:
-  version "2.1.0"
-  resolved "http://registry.m.jd.com/has-yarn/download/has-yarn-2.1.0.tgz#137e11354a7b5bf11aa5cb649cf0c6f3ff2b2e77"
-  integrity sha1-E34RNUp7W/EapctknPDG8/8rLnc=
-
-http-cache-semantics@^4.0.0:
-  version "4.1.1"
-  resolved "http://registry.m.jd.com/http-cache-semantics/download/http-cache-semantics-4.1.1.tgz#abe02fcb2985460bf0323be664436ec3476a6d5a"
-  integrity sha1-q+AvyymFRgvwMjvmZENuw0dqbVo=
-
-http-errors@~2.0.1:
-  version "2.0.1"
-  resolved "http://registry.m.jd.com/http-errors/download/http-errors-2.0.1.tgz#36d2f65bc909c8790018dd36fb4d93da6caae06b"
-  integrity sha1-NtL2W8kJyHkAGN02+02T2myq4Gs=
+  resolved "http://registry.m.jd.com/hast-util-whitespace/download/hast-util-whitespace-3.0.0.tgz"
+  integrity sha1-d3jtnTyS3Z6MXI9kiknCH8UctiE=
   dependencies:
-    depd "~2.0.0"
-    inherits "~2.0.4"
-    setprototypeof "~1.2.0"
-    statuses "~2.0.2"
-    toidentifier "~1.0.1"
+    "@types/hast" "^3.0.0"
 
-import-lazy@^2.1.0:
-  version "2.1.0"
-  resolved "http://registry.m.jd.com/import-lazy/download/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
-  integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
+hookable@^5.5.3:
+  version "5.5.3"
+  resolved "http://registry.m.jd.com/hookable/download/hookable-5.5.3.tgz"
+  integrity sha1-bPw1iYSh75keJRjLntSneLvTIV0=
 
-imurmurhash@^0.1.4:
-  version "0.1.4"
-  resolved "http://registry.m.jd.com/imurmurhash/download/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
-  integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
+html-void-elements@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.m.jd.com/html-void-elements/download/html-void-elements-3.0.0.tgz"
+  integrity sha1-/J29hK+edHJJA01NYmAt72UX8dc=
 
-inherits@~2.0.4:
-  version "2.0.4"
-  resolved "http://registry.m.jd.com/inherits/download/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
-  integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
-
-ini@1.3.7:
-  version "1.3.7"
-  resolved "http://registry.m.jd.com/ini/download/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
-  integrity sha1-oJNj4ZEZcuoW16iFEAXYTPCamoQ=
-
-ini@~1.3.0:
-  version "1.3.8"
-  resolved "http://registry.m.jd.com/ini/download/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
-  integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
-
-is-binary-path@~2.1.0:
-  version "2.1.0"
-  resolved "http://registry.m.jd.com/is-binary-path/download/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
-  integrity sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=
+iconv-lite@0.6:
+  version "0.6.3"
+  resolved "http://registry.m.jd.com/iconv-lite/download/iconv-lite-0.6.3.tgz"
+  integrity sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE=
   dependencies:
-    binary-extensions "^2.0.0"
+    safer-buffer ">= 2.1.2 < 3.0.0"
 
-is-ci@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/is-ci/download/is-ci-2.0.0.tgz#6bc6334181810e04b5c22b3d589fdca55026404c"
-  integrity sha1-a8YzQYGBDgS1wis9WJ/cpVAmQEw=
-  dependencies:
-    ci-info "^2.0.0"
+ignore@^5.2.0:
+  version "5.3.2"
+  resolved "http://registry.m.jd.com/ignore/download/ignore-5.3.2.tgz"
+  integrity sha1-PNQOcp82Q/2HywTlC/DrcivFlvU=
+
+import-meta-resolve@^4.2.0:
+  version "4.2.0"
+  resolved "http://registry.m.jd.com/import-meta-resolve/download/import-meta-resolve-4.2.0.tgz"
+  integrity sha1-CMuFtb037MjrHg9nDcJ2cALUNzQ=
+
+internmap@^1.0.0:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/internmap/download/internmap-1.0.1.tgz"
+  integrity sha1-ABfMijuZYF8DAvKxmNJy4BXl35U=
+
+"internmap@1 - 2":
+  version "2.0.3"
+  resolved "http://registry.m.jd.com/internmap/download/internmap-2.0.3.tgz"
+  integrity sha1-ZoXyN1XkPFJOJR0py8lySOMGEAk=
 
 is-extglob@^2.1.1:
   version "2.1.1"
-  resolved "http://registry.m.jd.com/is-extglob/download/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+  resolved "http://registry.m.jd.com/is-extglob/download/is-extglob-2.1.1.tgz"
   integrity sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
 
-is-fullwidth-code-point@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/is-fullwidth-code-point/download/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
-  integrity sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0=
-
-is-glob@^4.0.1, is-glob@~4.0.1:
+is-glob@^4.0.1:
   version "4.0.3"
-  resolved "http://registry.m.jd.com/is-glob/download/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
+  resolved "http://registry.m.jd.com/is-glob/download/is-glob-4.0.3.tgz"
   integrity sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ=
   dependencies:
     is-extglob "^2.1.1"
 
-is-installed-globally@^0.3.1:
-  version "0.3.2"
-  resolved "http://registry.m.jd.com/is-installed-globally/download/is-installed-globally-0.3.2.tgz#fd3efa79ee670d1187233182d5b0a1dd00313141"
-  integrity sha1-/T76ee5nDRGHIzGC1bCh3QAxMUE=
-  dependencies:
-    global-dirs "^2.0.1"
-    is-path-inside "^3.0.1"
-
-is-npm@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.m.jd.com/is-npm/download/is-npm-4.0.0.tgz#c90dd8380696df87a7a6d823c20d0b12bbe3c84d"
-  integrity sha1-yQ3YOAaW34enptgjwg0LErvjyE0=
-
 is-number@^7.0.0:
   version "7.0.0"
-  resolved "http://registry.m.jd.com/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  resolved "http://registry.m.jd.com/is-number/download/is-number-7.0.0.tgz"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
-is-obj@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/is-obj/download/is-obj-2.0.0.tgz#473fb05d973705e3fd9620545018ca8e22ef4982"
-  integrity sha1-Rz+wXZc3BeP9liBUUBjKjiLvSYI=
+is-what@^5.2.0:
+  version "5.5.0"
+  resolved "http://registry.m.jd.com/is-what/download/is-what-5.5.0.tgz"
+  integrity sha1-owMYFXV8/h8D/tmQv2NVotP2KMQ=
 
-is-path-inside@^3.0.1:
-  version "3.0.3"
-  resolved "http://registry.m.jd.com/is-path-inside/download/is-path-inside-3.0.3.tgz#d231362e53a07ff2b0e0ea7fed049161ffd16283"
-  integrity sha1-0jE2LlOgf/Kw4Op/7QSRYf/RYoM=
-
-is-typedarray@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.m.jd.com/is-typedarray/download/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
-  integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
-
-is-wsl@^1.1.0:
-  version "1.1.0"
-  resolved "http://registry.m.jd.com/is-wsl/download/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
-  integrity sha1-HxbkqiKwTRM2tmGIpmrzxgDDpm0=
-
-is-yarn-global@^0.3.0:
-  version "0.3.0"
-  resolved "http://registry.m.jd.com/is-yarn-global/download/is-yarn-global-0.3.0.tgz#d502d3382590ea3004893746754c89139973e232"
-  integrity sha1-1QLTOCWQ6jAEiTdGdUyJE5lz4jI=
-
-json-buffer@3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/json-buffer/download/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
-  integrity sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=
-
-jsonfile@^4.0.0:
-  version "4.0.0"
-  resolved "http://registry.m.jd.com/jsonfile/download/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
-  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
+jsonfile@^6.0.1:
+  version "6.2.1"
+  resolved "http://registry.m.jd.com/jsonfile/download/jsonfile-6.2.1.tgz"
+  integrity sha1-tuMXF/Isw3MwsIHOAFHtXeU68vY=
+  dependencies:
+    universalify "^2.0.0"
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-keyv@^3.0.0:
-  version "3.1.0"
-  resolved "http://registry.m.jd.com/keyv/download/keyv-3.1.0.tgz#ecc228486f69991e49e9476485a5be1e8fc5c4d9"
-  integrity sha1-7MIoSG9pmR5J6UdkhaW+Ho/FxNk=
+katex@^0.16.25:
+  version "0.16.47"
+  resolved "http://registry.m.jd.com/katex/download/katex-0.16.47.tgz"
+  integrity sha1-ChOkLC3rT3TmHxYtRAuRZaVIAw8=
   dependencies:
-    json-buffer "3.0.0"
+    commander "^8.3.0"
 
-latest-version@^5.0.0:
-  version "5.1.0"
-  resolved "http://registry.m.jd.com/latest-version/download/latest-version-5.1.0.tgz#119dfe908fe38d15dfa43ecd13fa12ec8832face"
-  integrity sha1-EZ3+kI/jjRXfpD7NE/oS7Igy+s4=
-  dependencies:
-    package-json "^6.3.0"
+khroma@^2.0.0, khroma@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.m.jd.com/khroma/download/khroma-2.1.0.tgz"
+  integrity sha1-RfLOlM4jGkN89bY8LohubrQru7E=
 
-livereload-js@^3.3.1:
-  version "3.4.1"
-  resolved "http://registry.m.jd.com/livereload-js/download/livereload-js-3.4.1.tgz#ba90fbc708ed1b9a024bb89c4ee12c96ea03d66f"
-  integrity sha1-upD7xwjtG5oCS7icTuEsluoD1m8=
+layout-base@^1.0.0:
+  version "1.0.2"
+  resolved "http://registry.m.jd.com/layout-base/download/layout-base-1.0.2.tgz"
+  integrity sha1-EpHilog8Miqd1MXdggY3IbU+JuI=
 
-livereload@^0.9.2:
-  version "0.9.3"
-  resolved "http://registry.m.jd.com/livereload/download/livereload-0.9.3.tgz#a714816375ed52471408bede8b49b2ee6a0c55b1"
-  integrity sha1-pxSBY3XtUkcUCL7ei0my7moMVbE=
-  dependencies:
-    chokidar "^3.5.0"
-    livereload-js "^3.3.1"
-    opts ">= 1.2.0"
-    ws "^7.4.3"
+layout-base@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/layout-base/download/layout-base-2.0.1.tgz"
+  integrity sha1-0DN5E1hskPnCwHUpIGn1wtpd0oU=
 
 locate-path@^5.0.0:
   version "5.0.0"
-  resolved "http://registry.m.jd.com/locate-path/download/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+  resolved "http://registry.m.jd.com/locate-path/download/locate-path-5.0.0.tgz"
   integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
   dependencies:
     p-locate "^4.1.0"
 
-lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.m.jd.com/lowercase-keys/download/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
-  integrity sha1-b54wtHCE2XGnyCD/FabFFnt0wm8=
+lodash-es@^4.17.21:
+  version "4.18.1"
+  resolved "http://registry.m.jd.com/lodash-es/download/lodash-es-4.18.1.tgz"
+  integrity sha1-uWLuuA2dmDqQC/NClh+3QYyhCx0=
 
-lowercase-keys@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/lowercase-keys/download/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
-  integrity sha1-JgPni3tLAAbLyi+8yKMgJVislHk=
-
-lru-cache@^5.1.1:
-  version "5.1.1"
-  resolved "http://registry.m.jd.com/lru-cache/download/lru-cache-5.1.1.tgz#1da27e6710271947695daf6848e847f01d84b920"
-  integrity sha1-HaJ+ZxAnGUdpXa9oSOhH8B2EuSA=
+magic-string@^0.30.21:
+  version "0.30.21"
+  resolved "http://registry.m.jd.com/magic-string/download/magic-string-0.30.21.tgz"
+  integrity sha1-VnY+wJoPqAkd8nh5/ZTRkHjADZE=
   dependencies:
-    yallist "^3.0.2"
+    "@jridgewell/sourcemap-codec" "^1.5.5"
 
-make-dir@^3.0.0:
+make-dir@^3.0.2:
   version "3.1.0"
-  resolved "http://registry.m.jd.com/make-dir/download/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
+  resolved "http://registry.m.jd.com/make-dir/download/make-dir-3.1.0.tgz"
   integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
   dependencies:
     semver "^6.0.0"
 
-marked@^1.2.9:
-  version "1.2.9"
-  resolved "http://registry.m.jd.com/marked/download/marked-1.2.9.tgz#53786f8b05d4c01a2a5a76b7d1ec9943d29d72dc"
-  integrity sha1-U3hviwXUwBoqWna30eyZQ9Kdctw=
+mark.js@8.11.1:
+  version "8.11.1"
+  resolved "http://registry.m.jd.com/mark.js/download/mark.js-8.11.1.tgz"
+  integrity sha1-GA8fnr74sOY45BZq1S24eb6y/8U=
 
-medium-zoom@^1.0.6:
-  version "1.1.0"
-  resolved "http://registry.m.jd.com/medium-zoom/download/medium-zoom-1.1.0.tgz#6efb6bbda861a02064ee71a2617a8dc4381ecc71"
-  integrity sha1-bvtrvahhoCBk7nGiYXqNxDgezHE=
+marked@^16.3.0:
+  version "16.4.2"
+  resolved "http://registry.m.jd.com/marked/download/marked-16.4.2.tgz"
+  integrity sha1-SVmmS+bEhvDbdGfq184ojeVCkKM=
 
-mime@1.6.0:
-  version "1.6.0"
-  resolved "http://registry.m.jd.com/mime/download/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
-  integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
+mdast-util-to-hast@^13.0.0:
+  version "13.2.1"
+  resolved "http://registry.m.jd.com/mdast-util-to-hast/download/mdast-util-to-hast-13.2.1.tgz"
+  integrity sha1-1/+EykmaV+LAYK5nVIrZUOaJoFM=
+  dependencies:
+    "@types/hast" "^3.0.0"
+    "@types/mdast" "^4.0.0"
+    "@ungap/structured-clone" "^1.0.0"
+    devlop "^1.0.0"
+    micromark-util-sanitize-uri "^2.0.0"
+    trim-lines "^3.0.0"
+    unist-util-position "^5.0.0"
+    unist-util-visit "^5.0.0"
+    vfile "^6.0.0"
 
-mimic-response@^1.0.0, mimic-response@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.m.jd.com/mimic-response/download/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
-  integrity sha1-SSNTiHju9CBjy4o+OweYeBSHqxs=
+merge2@^1.3.0, merge2@^1.4.1:
+  version "1.4.1"
+  resolved "http://registry.m.jd.com/merge2/download/merge2-1.4.1.tgz"
+  integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
 
-min-indent@^1.0.0:
-  version "1.0.1"
-  resolved "http://registry.m.jd.com/min-indent/download/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
-  integrity sha1-pj9oFnOzBXH76LwlaGrnRu76mGk=
+mermaid@^11.15.0, "mermaid@10 || 11":
+  version "11.15.0"
+  resolved "http://registry.m.jd.com/mermaid/download/mermaid-11.15.0.tgz"
+  integrity sha1-tIXBPqXh508zKMS7AEJ72of6HB4=
+  dependencies:
+    "@braintree/sanitize-url" "^7.1.1"
+    "@iconify/utils" "^3.0.2"
+    "@mermaid-js/parser" "^1.1.1"
+    "@types/d3" "^7.4.3"
+    "@upsetjs/venn.js" "^2.0.0"
+    cytoscape "^3.33.1"
+    cytoscape-cose-bilkent "^4.1.0"
+    cytoscape-fcose "^2.2.0"
+    d3 "^7.9.0"
+    d3-sankey "^0.12.3"
+    dagre-d3-es "7.0.14"
+    dayjs "^1.11.19"
+    dompurify "^3.3.1"
+    es-toolkit "^1.45.1"
+    katex "^0.16.25"
+    khroma "^2.1.0"
+    marked "^16.3.0"
+    roughjs "^4.6.6"
+    stylis "^4.3.6"
+    ts-dedent "^2.2.0"
+    uuid "^11.1.0 || ^12 || ^13 || ^14.0.0"
 
-minimist@^1.2.0:
-  version "1.2.8"
-  resolved "http://registry.m.jd.com/minimist/download/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
-  integrity sha1-waRk52kzAuCCoHXO4MBXdBrEdyw=
-
-ms@2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
-  integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
-
-ms@2.1.3, ms@^2.1.3:
-  version "2.1.3"
-  resolved "http://registry.m.jd.com/ms/download/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
-  integrity sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=
-
-nested-error-stacks@^2.0.0:
+micromark-util-character@^2.0.0:
   version "2.1.1"
-  resolved "http://registry.m.jd.com/nested-error-stacks/download/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
-  integrity sha1-JsijzubMBfvPHjM80vw+ADMmwLU=
-
-node-fetch@^2.6.6:
-  version "2.7.0"
-  resolved "http://registry.m.jd.com/node-fetch/download/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
-  integrity sha1-0PD6bj4twdJ+/NitmdVQvalNGH0=
+  resolved "http://registry.m.jd.com/micromark-util-character/download/micromark-util-character-2.1.1.tgz"
+  integrity sha1-L5h4MaQNTFEKwmHomFLE6XA8zaY=
   dependencies:
-    whatwg-url "^5.0.0"
+    micromark-util-symbol "^2.0.0"
+    micromark-util-types "^2.0.0"
 
-normalize-path@^3.0.0, normalize-path@~3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
-  integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
+micromark-util-encode@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/micromark-util-encode/download/micromark-util-encode-2.0.1.tgz"
+  integrity sha1-DVHRwJVVHPqsNoMmljz1XxX1QLg=
 
-normalize-url@^4.1.0:
-  version "4.5.1"
-  resolved "http://registry.m.jd.com/normalize-url/download/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
-  integrity sha1-DdkM8SiO4dExO4cIHJpZMu5IUYo=
-
-on-finished@~2.3.0:
-  version "2.3.0"
-  resolved "http://registry.m.jd.com/on-finished/download/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
-  integrity sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+micromark-util-sanitize-uri@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/micromark-util-sanitize-uri/download/micromark-util-sanitize-uri-2.0.1.tgz"
+  integrity sha1-q4l4m4GKWHUrc9a1UjhiG3+qj9c=
   dependencies:
-    ee-first "1.1.1"
+    micromark-util-character "^2.0.0"
+    micromark-util-encode "^2.0.0"
+    micromark-util-symbol "^2.0.0"
 
-on-finished@~2.4.1:
-  version "2.4.1"
-  resolved "http://registry.m.jd.com/on-finished/download/on-finished-2.4.1.tgz#58c8c44116e54845ad57f14ab10b03533184ac3f"
-  integrity sha1-WMjEQRblSEWtV/FKsQsDUzGErD8=
-  dependencies:
-    ee-first "1.1.1"
+micromark-util-symbol@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/micromark-util-symbol/download/micromark-util-symbol-2.0.1.tgz"
+  integrity sha1-5dpJTo6ysHGg0I+zT2zv7GwKGbg=
 
-once@^1.3.1, once@^1.4.0:
-  version "1.4.0"
-  resolved "http://registry.m.jd.com/once/download/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
-  integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
-  dependencies:
-    wrappy "1"
-
-open@^6.4.0:
-  version "6.4.0"
-  resolved "http://registry.m.jd.com/open/download/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
-  integrity sha1-XBPpbQ3IlGhhZPGJZez+iJ7PyKk=
-  dependencies:
-    is-wsl "^1.1.0"
-
-opencollective-postinstall@^2.0.2:
-  version "2.0.3"
-  resolved "http://registry.m.jd.com/opencollective-postinstall/download/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
-  integrity sha1-eg//l49tv6TQBiOPusmO1BmMMlk=
-
-"opts@>= 1.2.0":
+micromark-util-types@^2.0.0:
   version "2.0.2"
-  resolved "http://registry.m.jd.com/opts/download/opts-2.0.2.tgz#a17e189fbbfee171da559edd8a42423bc5993ce1"
-  integrity sha1-oX4Yn7v+4XHaVZ7dikJCO8WZPOE=
+  resolved "http://registry.m.jd.com/micromark-util-types/download/micromark-util-types-2.0.2.tgz"
+  integrity sha1-8AIl9fWg68MlT5bDa2YFxLOTkI4=
 
-p-cancelable@^1.0.0:
-  version "1.1.0"
-  resolved "http://registry.m.jd.com/p-cancelable/download/p-cancelable-1.1.0.tgz#d078d15a3af409220c886f1d9a0ca2e441ab26cc"
-  integrity sha1-0HjRWjr0CSIMiG8dmgyi5EGrJsw=
-
-p-event@^4.1.0:
-  version "4.2.0"
-  resolved "http://registry.m.jd.com/p-event/download/p-event-4.2.0.tgz#af4b049c8acd91ae81083ebd1e6f5cae2044c1b5"
-  integrity sha1-r0sEnIrNka6BCD69Hm9criBEwbU=
+micromatch@^4.0.8:
+  version "4.0.8"
+  resolved "http://registry.m.jd.com/micromatch/download/micromatch-4.0.8.tgz"
+  integrity sha1-1m+hjzpHB2eJMgubGvMr2G2fogI=
   dependencies:
-    p-timeout "^3.1.0"
+    braces "^3.0.3"
+    picomatch "^2.3.1"
 
-p-finally@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.m.jd.com/p-finally/download/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
-  integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
+minisearch@^7.1.1:
+  version "7.2.0"
+  resolved "http://registry.m.jd.com/minisearch/download/minisearch-7.2.0.tgz"
+  integrity sha1-PcMOQelGSzg2VTttlptlZhT481k=
+
+mitt@^3.0.1:
+  version "3.0.1"
+  resolved "http://registry.m.jd.com/mitt/download/mitt-3.0.1.tgz"
+  integrity sha1-6jbPDMMEA2Aa4HTI93twks2rNtE=
+
+nanoid@^3.3.12:
+  version "3.3.15"
+  resolved "http://registry.m.jd.com/nanoid/download/nanoid-3.3.15.tgz"
+  integrity sha1-NsSQ+tjG6GyCTJQN/d6Zm2ntQxY=
+
+non-layered-tidy-tree-layout@^2.0.2:
+  version "2.0.2"
+  resolved "http://registry.m.jd.com/non-layered-tidy-tree-layout/download/non-layered-tidy-tree-layout-2.0.2.tgz"
+  integrity sha1-V9NdE8NWZD/ClqVfsRrBXnTaeAQ=
+
+oniguruma-to-es@^3.1.0:
+  version "3.1.1"
+  resolved "http://registry.m.jd.com/oniguruma-to-es/download/oniguruma-to-es-3.1.1.tgz"
+  integrity sha1-SA5LrE07yUOawNISTwcl56DXbRc=
+  dependencies:
+    emoji-regex-xs "^1.0.0"
+    regex "^6.0.1"
+    regex-recursion "^6.0.2"
 
 p-limit@^2.2.0:
   version "2.3.0"
-  resolved "http://registry.m.jd.com/p-limit/download/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
+  resolved "http://registry.m.jd.com/p-limit/download/p-limit-2.3.0.tgz"
   integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
   dependencies:
     p-try "^2.0.0"
 
 p-locate@^4.1.0:
   version "4.1.0"
-  resolved "http://registry.m.jd.com/p-locate/download/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
+  resolved "http://registry.m.jd.com/p-locate/download/p-locate-4.1.0.tgz"
   integrity sha1-o0KLtwiLOmApL2aRkni3wpetTwc=
   dependencies:
     p-limit "^2.2.0"
 
-p-timeout@^3.1.0:
-  version "3.2.0"
-  resolved "http://registry.m.jd.com/p-timeout/download/p-timeout-3.2.0.tgz#c7e17abc971d2a7962ef83626b35d635acf23dfe"
-  integrity sha1-x+F6vJcdKnli74NiazXWNazyPf4=
-  dependencies:
-    p-finally "^1.0.0"
-
 p-try@^2.0.0:
   version "2.2.0"
-  resolved "http://registry.m.jd.com/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
+  resolved "http://registry.m.jd.com/p-try/download/p-try-2.2.0.tgz"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
 
-package-json@^6.3.0:
-  version "6.5.0"
-  resolved "http://registry.m.jd.com/package-json/download/package-json-6.5.0.tgz#6feedaca35e75725876d0b0e64974697fed145b0"
-  integrity sha1-b+7ayjXnVyWHbQsOZJdGl/7RRbA=
-  dependencies:
-    got "^9.6.0"
-    registry-auth-token "^4.0.0"
-    registry-url "^5.0.0"
-    semver "^6.2.0"
+package-manager-detector@^1.3.0:
+  version "1.6.0"
+  resolved "http://registry.m.jd.com/package-manager-detector/download/package-manager-detector-1.6.0.tgz"
+  integrity sha1-cNDPCqAsh37q9mxNmE7eC+kTBzQ=
 
-parent-require@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.m.jd.com/parent-require/download/parent-require-1.0.0.tgz#746a167638083a860b0eef6732cb27ed46c32977"
-  integrity sha1-dGoWdjgIOoYLDu9nMssn7UbDKXc=
-
-parseurl@~1.3.3:
-  version "1.3.3"
-  resolved "http://registry.m.jd.com/parseurl/download/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
-  integrity sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
+path-data-parser@^0.1.0, path-data-parser@0.1.0:
+  version "0.1.0"
+  resolved "http://registry.m.jd.com/path-data-parser/download/path-data-parser-0.1.0.tgz"
+  integrity sha1-j1ulzHD8e+yz3O+uoI4mWaumC4w=
 
 path-exists@^4.0.0:
   version "4.0.0"
-  resolved "http://registry.m.jd.com/path-exists/download/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
+  resolved "http://registry.m.jd.com/path-exists/download/path-exists-4.0.0.tgz"
   integrity sha1-UTvb4tO5XXdi6METfvoZXGxhtbM=
 
-picomatch@^2.0.4, picomatch@^2.2.1:
+path-type@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.m.jd.com/path-type/download/path-type-4.0.0.tgz"
+  integrity sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs=
+
+perfect-debounce@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/perfect-debounce/download/perfect-debounce-1.0.0.tgz"
+  integrity sha1-nC6LwwsWnMmEpYt9WygEmDlZHSo=
+
+picocolors@^1.1.1:
+  version "1.1.1"
+  resolved "http://registry.m.jd.com/picocolors/download/picocolors-1.1.1.tgz"
+  integrity sha1-PTIa8+q5ObCDyPkpodEs2oHCa2s=
+
+picomatch@^2.3.1:
   version "2.3.1"
-  resolved "http://registry.m.jd.com/picomatch/download/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  resolved "http://registry.m.jd.com/picomatch/download/picomatch-2.3.1.tgz"
   integrity sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=
 
-prepend-http@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/prepend-http/download/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
-  integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
-
-prismjs@^1.27.0:
-  version "1.30.0"
-  resolved "http://registry.m.jd.com/prismjs/download/prismjs-1.30.0.tgz#d9709969d9d4e16403f6f348c63553b19f0975a9"
-  integrity sha1-2XCZadnU4WQD9vNIxjVTsZ8Jdak=
-
-pump@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/pump/download/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
-  integrity sha1-tKIRaBW94vTh6mAjVOjHVWUQemQ=
+pkg-dir@^4.1.0:
+  version "4.2.0"
+  resolved "http://registry.m.jd.com/pkg-dir/download/pkg-dir-4.2.0.tgz"
+  integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
   dependencies:
-    end-of-stream "^1.1.0"
-    once "^1.3.1"
+    find-up "^4.0.0"
 
-pupa@^2.0.1:
-  version "2.1.1"
-  resolved "http://registry.m.jd.com/pupa/download/pupa-2.1.1.tgz#f5e8fd4afc2c5d97828faa523549ed8744a20d62"
-  integrity sha1-9ej9SvwsXZeCj6pSNUnth0SiDWI=
+points-on-curve@^0.2.0, points-on-curve@0.2.0:
+  version "0.2.0"
+  resolved "http://registry.m.jd.com/points-on-curve/download/points-on-curve-0.2.0.tgz"
+  integrity sha1-fbuYxDeRhZQ0KEdhMw+ok8uBtNE=
+
+points-on-path@^0.2.1:
+  version "0.2.1"
+  resolved "http://registry.m.jd.com/points-on-path/download/points-on-path-0.2.1.tgz"
+  integrity sha1-VTICtUJMU77TcTWzGIWOrP+F3VI=
   dependencies:
-    escape-goat "^2.0.0"
+    path-data-parser "0.1.0"
+    points-on-curve "0.2.0"
 
-range-parser@~1.2.1:
-  version "1.2.1"
-  resolved "http://registry.m.jd.com/range-parser/download/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
-  integrity sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=
-
-rc@1.2.8, rc@^1.2.8:
-  version "1.2.8"
-  resolved "http://registry.m.jd.com/rc/download/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
-  integrity sha1-zZJL9SAKB1uDwYjNa54hG3/A0+0=
+postcss@^8, postcss@^8.4.43, postcss@^8.5.15:
+  version "8.5.15"
+  resolved "http://registry.m.jd.com/postcss/download/postcss-8.5.15.tgz"
+  integrity sha1-0er2d6Mk6ewCGW2i0/7PSguac1w=
   dependencies:
-    deep-extend "^0.6.0"
-    ini "~1.3.0"
-    minimist "^1.2.0"
-    strip-json-comments "~2.0.1"
+    nanoid "^3.3.12"
+    picocolors "^1.1.1"
+    source-map-js "^1.2.1"
 
-readdirp@~3.6.0:
-  version "3.6.0"
-  resolved "http://registry.m.jd.com/readdirp/download/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
-  integrity sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=
+preact@^10.0.0:
+  version "10.29.2"
+  resolved "http://registry.m.jd.com/preact/download/preact-10.29.2.tgz"
+  integrity sha1-PmBpxHFxi40STRzWdWURRTLojXA=
+
+property-information@^7.0.0:
+  version "7.2.0"
+  resolved "http://registry.m.jd.com/property-information/download/property-information-7.2.0.tgz"
+  integrity sha1-CAmzQmTplcC/zTInAooeNSEK+Ao=
+
+queue-microtask@^1.2.2:
+  version "1.2.3"
+  resolved "http://registry.m.jd.com/queue-microtask/download/queue-microtask-1.2.3.tgz"
+  integrity sha1-SSkii7xyTfrEPg77BYyve2z7YkM=
+
+regex-recursion@^6.0.2:
+  version "6.0.2"
+  resolved "http://registry.m.jd.com/regex-recursion/download/regex-recursion-6.0.2.tgz"
+  integrity sha1-oLGXenTIfwczd7k42+36supYKzM=
   dependencies:
-    picomatch "^2.2.1"
+    regex-utilities "^2.3.0"
 
-registry-auth-token@^4.0.0:
-  version "4.2.2"
-  resolved "http://registry.m.jd.com/registry-auth-token/download/registry-auth-token-4.2.2.tgz#f02d49c3668884612ca031419491a13539e21fac"
-  integrity sha1-8C1Jw2aIhGEsoDFBlJGhNTniH6w=
+regex-utilities@^2.3.0:
+  version "2.3.0"
+  resolved "http://registry.m.jd.com/regex-utilities/download/regex-utilities-2.3.0.tgz"
+  integrity sha1-hxY1EqFdzikIzweciWDVFY/0MoA=
+
+regex@^6.0.1:
+  version "6.1.0"
+  resolved "http://registry.m.jd.com/regex/download/regex-6.1.0.tgz"
+  integrity sha1-186Y+O4y2nSXwT9mAfyivEpqeAM=
   dependencies:
-    rc "1.2.8"
+    regex-utilities "^2.3.0"
 
-registry-url@^5.0.0:
-  version "5.1.0"
-  resolved "http://registry.m.jd.com/registry-url/download/registry-url-5.1.0.tgz#e98334b50d5434b81136b44ec638d9c2009c5009"
-  integrity sha1-6YM0tQ1UNLgRNrROxjjZwgCcUAk=
+reusify@^1.0.4:
+  version "1.1.0"
+  resolved "http://registry.m.jd.com/reusify/download/reusify-1.1.0.tgz"
+  integrity sha1-D+E7lSLhRz9RtVjueW4I8R+bSJ8=
+
+rfdc@^1.4.1:
+  version "1.4.1"
+  resolved "http://registry.m.jd.com/rfdc/download/rfdc-1.4.1.tgz"
+  integrity sha1-d492xPtzHZNBTo+SX77PZMzn9so=
+
+robust-predicates@^3.0.2:
+  version "3.0.3"
+  resolved "http://registry.m.jd.com/robust-predicates/download/robust-predicates-3.0.3.tgz"
+  integrity sha1-EJkGGzNJ4sWr7GwqsKzUQNJNQGI=
+
+rollup@^4.20.0:
+  version "4.62.2"
+  resolved "http://registry.m.jd.com/rollup/download/rollup-4.62.2.tgz"
+  integrity sha1-2Q/Ey4EfBxMDyJC3eVlWNPNflUE=
   dependencies:
-    rc "^1.2.8"
+    "@types/estree" "1.0.9"
+  optionalDependencies:
+    "@rollup/rollup-android-arm-eabi" "4.62.2"
+    "@rollup/rollup-android-arm64" "4.62.2"
+    "@rollup/rollup-darwin-arm64" "4.62.2"
+    "@rollup/rollup-darwin-x64" "4.62.2"
+    "@rollup/rollup-freebsd-arm64" "4.62.2"
+    "@rollup/rollup-freebsd-x64" "4.62.2"
+    "@rollup/rollup-linux-arm-gnueabihf" "4.62.2"
+    "@rollup/rollup-linux-arm-musleabihf" "4.62.2"
+    "@rollup/rollup-linux-arm64-gnu" "4.62.2"
+    "@rollup/rollup-linux-arm64-musl" "4.62.2"
+    "@rollup/rollup-linux-loong64-gnu" "4.62.2"
+    "@rollup/rollup-linux-loong64-musl" "4.62.2"
+    "@rollup/rollup-linux-ppc64-gnu" "4.62.2"
+    "@rollup/rollup-linux-ppc64-musl" "4.62.2"
+    "@rollup/rollup-linux-riscv64-gnu" "4.62.2"
+    "@rollup/rollup-linux-riscv64-musl" "4.62.2"
+    "@rollup/rollup-linux-s390x-gnu" "4.62.2"
+    "@rollup/rollup-linux-x64-gnu" "4.62.2"
+    "@rollup/rollup-linux-x64-musl" "4.62.2"
+    "@rollup/rollup-openbsd-x64" "4.62.2"
+    "@rollup/rollup-openharmony-arm64" "4.62.2"
+    "@rollup/rollup-win32-arm64-msvc" "4.62.2"
+    "@rollup/rollup-win32-ia32-msvc" "4.62.2"
+    "@rollup/rollup-win32-x64-gnu" "4.62.2"
+    "@rollup/rollup-win32-x64-msvc" "4.62.2"
+    fsevents "~2.3.2"
 
-require-directory@^2.1.1:
-  version "2.1.1"
-  resolved "http://registry.m.jd.com/require-directory/download/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
-  integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
-
-require-main-filename@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/require-main-filename/download/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
-  integrity sha1-0LMp7MfMD2Fkn2IhW+aa9UqomJs=
-
-resolve-pathname@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/resolve-pathname/download/resolve-pathname-3.0.0.tgz#99d02224d3cf263689becbb393bc560313025dcd"
-  integrity sha1-mdAiJNPPJjaJvsuzk7xWAxMCXc0=
-
-responselike@^1.0.2:
-  version "1.0.2"
-  resolved "http://registry.m.jd.com/responselike/download/responselike-1.0.2.tgz#918720ef3b631c5642be068f15ade5a46f4ba1e7"
-  integrity sha1-kYcg7ztjHFZCvgaPFa3lpG9Loec=
+roughjs@^4.6.6:
+  version "4.6.6"
+  resolved "http://registry.m.jd.com/roughjs/download/roughjs-4.6.6.tgz"
+  integrity sha1-EFn0ml4MgN7lQaAFsgzDIrIiFYs=
   dependencies:
-    lowercase-keys "^1.0.0"
+    hachure-fill "^0.5.2"
+    path-data-parser "^0.1.0"
+    points-on-curve "^0.2.0"
+    points-on-path "^0.2.1"
 
-semver-diff@^3.1.1:
-  version "3.1.1"
-  resolved "http://registry.m.jd.com/semver-diff/download/semver-diff-3.1.1.tgz#05f77ce59f325e00e2706afd67bb506ddb1ca32b"
-  integrity sha1-Bfd85Z8yXgDicGr9Z7tQbdscoys=
+run-parallel@^1.1.9:
+  version "1.2.0"
+  resolved "http://registry.m.jd.com/run-parallel/download/run-parallel-1.2.0.tgz"
+  integrity sha1-ZtE2jae9+SHrnZW9GpIp5/IaQ+4=
   dependencies:
-    semver "^6.3.0"
+    queue-microtask "^1.2.2"
 
-semver@^6.0.0, semver@^6.2.0, semver@^6.3.0:
+rw@1:
+  version "1.3.3"
+  resolved "http://registry.m.jd.com/rw/download/rw-1.3.3.tgz"
+  integrity sha1-P4Yt+pGrdmsUiF700BEkv9oHT7Q=
+
+"safer-buffer@>= 2.1.2 < 3.0.0":
+  version "2.1.2"
+  resolved "http://registry.m.jd.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
+  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+
+"search-insights@>= 1 < 3":
+  version "2.17.3"
+  resolved "http://registry.m.jd.com/search-insights/download/search-insights-2.17.3.tgz"
+  integrity sha1-j66l0gUHvzSMq6ByTlOGhihHtmE=
+
+semver@^6.0.0:
   version "6.3.1"
-  resolved "http://registry.m.jd.com/semver/download/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
+  resolved "http://registry.m.jd.com/semver/download/semver-6.3.1.tgz"
   integrity sha1-VW0u+GiRRuRtzqS/3QlfNDTf/LQ=
 
-send@~0.19.1:
-  version "0.19.2"
-  resolved "http://registry.m.jd.com/send/download/send-0.19.2.tgz#59bc0da1b4ea7ad42736fd642b1c4294e114ff29"
-  integrity sha1-WbwNobTqetQnNv1kKxxClOEU/yk=
+shiki@^2.1.0:
+  version "2.5.0"
+  resolved "http://registry.m.jd.com/shiki/download/shiki-2.5.0.tgz"
+  integrity sha1-CdAevzsLBlgEMc493AIzIEQs8iM=
   dependencies:
-    debug "2.6.9"
-    depd "2.0.0"
-    destroy "1.2.0"
-    encodeurl "~2.0.0"
-    escape-html "~1.0.3"
-    etag "~1.8.1"
-    fresh "~0.5.2"
-    http-errors "~2.0.1"
-    mime "1.6.0"
-    ms "2.1.3"
-    on-finished "~2.4.1"
-    range-parser "~1.2.1"
-    statuses "~2.0.2"
+    "@shikijs/core" "2.5.0"
+    "@shikijs/engine-javascript" "2.5.0"
+    "@shikijs/engine-oniguruma" "2.5.0"
+    "@shikijs/langs" "2.5.0"
+    "@shikijs/themes" "2.5.0"
+    "@shikijs/types" "2.5.0"
+    "@shikijs/vscode-textmate" "^10.0.2"
+    "@types/hast" "^3.0.4"
 
-serve-static@^1.12.1:
-  version "1.16.3"
-  resolved "http://registry.m.jd.com/serve-static/download/serve-static-1.16.3.tgz#a97b74d955778583f3862a4f0b841eb4d5d78cf9"
-  integrity sha1-qXt02VV3hYPzhipPC4QetNXXjPk=
-  dependencies:
-    encodeurl "~2.0.0"
-    escape-html "~1.0.3"
-    parseurl "~1.3.3"
-    send "~0.19.1"
-
-set-blocking@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/set-blocking/download/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
-  integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
-
-setprototypeof@~1.2.0:
-  version "1.2.0"
-  resolved "http://registry.m.jd.com/setprototypeof/download/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
-  integrity sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ=
-
-signal-exit@^3.0.2:
-  version "3.0.7"
-  resolved "http://registry.m.jd.com/signal-exit/download/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
-  integrity sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk=
-
-statuses@~1.5.0:
-  version "1.5.0"
-  resolved "http://registry.m.jd.com/statuses/download/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
-  integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
-
-statuses@~2.0.2:
-  version "2.0.2"
-  resolved "http://registry.m.jd.com/statuses/download/statuses-2.0.2.tgz#8f75eecef765b5e1cfcdc080da59409ed424e382"
-  integrity sha1-j3XuzvdlteHPzcCA2llAntQk44I=
-
-string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.0:
-  version "4.2.3"
-  resolved "http://registry.m.jd.com/string-width/download/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA=
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
-
-strip-ansi@^3.0.0:
-  version "3.0.1"
-  resolved "http://registry.m.jd.com/strip-ansi/download/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
-  integrity sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
-  dependencies:
-    ansi-regex "^2.0.0"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  version "6.0.1"
-  resolved "http://registry.m.jd.com/strip-ansi/download/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=
-  dependencies:
-    ansi-regex "^5.0.1"
-
-strip-indent@^3.0.0:
+slash@^3.0.0:
   version "3.0.0"
-  resolved "http://registry.m.jd.com/strip-indent/download/strip-indent-3.0.0.tgz#c32e1cee940b6b3432c771bc2c54bcce73cd3001"
-  integrity sha1-wy4c7pQLazQyx3G8LFS8znPNMAE=
+  resolved "http://registry.m.jd.com/slash/download/slash-3.0.0.tgz"
+  integrity sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ=
+
+source-map-js@^1.2.1:
+  version "1.2.1"
+  resolved "http://registry.m.jd.com/source-map-js/download/source-map-js-1.2.1.tgz"
+  integrity sha1-HOVlD93YerwJnto33P8CTCZnrkY=
+
+space-separated-tokens@^2.0.0:
+  version "2.0.2"
+  resolved "http://registry.m.jd.com/space-separated-tokens/download/space-separated-tokens-2.0.2.tgz"
+  integrity sha1-Hs2dI1CjhEVyw/SjErzrAYNIhZ8=
+
+speakingurl@^14.0.1:
+  version "14.0.1"
+  resolved "http://registry.m.jd.com/speakingurl/download/speakingurl-14.0.1.tgz"
+  integrity sha1-837I3cSrmOlgDByewySoxI13KlM=
+
+stringify-entities@^4.0.0:
+  version "4.0.4"
+  resolved "http://registry.m.jd.com/stringify-entities/download/stringify-entities-4.0.4.tgz"
+  integrity sha1-s7ee9fJ3zErHPK6wI2xbqTmzpPM=
   dependencies:
-    min-indent "^1.0.0"
+    character-entities-html4 "^2.0.0"
+    character-entities-legacy "^3.0.0"
 
-strip-json-comments@~2.0.1:
-  version "2.0.1"
-  resolved "http://registry.m.jd.com/strip-json-comments/download/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
-  integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
-
-supports-color@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/supports-color/download/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
-  integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
-
-supports-color@^5.3.0:
-  version "5.5.0"
-  resolved "http://registry.m.jd.com/supports-color/download/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
-  integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
+strip-outer@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.m.jd.com/strip-outer/download/strip-outer-1.0.1.tgz"
+  integrity sha1-sv0qv2YEudHmATBXGV34Nrip1jE=
   dependencies:
-    has-flag "^3.0.0"
+    escape-string-regexp "^1.0.2"
 
-supports-color@^7.1.0:
-  version "7.2.0"
-  resolved "http://registry.m.jd.com/supports-color/download/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
-  integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
+stylis@^4.3.6:
+  version "4.4.0"
+  resolved "http://registry.m.jd.com/stylis/download/stylis-4.4.0.tgz"
+  integrity sha1-xYRsk0X0v8Ub0MvXyjWgdE9IWl0=
+
+superjson@^2.2.2:
+  version "2.2.6"
+  resolved "http://registry.m.jd.com/superjson/download/superjson-2.2.6.tgz"
+  integrity sha1-oiOjqYgXKl+WVuIGP+X3M69A0Jk=
   dependencies:
-    has-flag "^4.0.0"
+    copy-anything "^4"
 
-term-size@^2.1.0:
-  version "2.2.1"
-  resolved "http://registry.m.jd.com/term-size/download/term-size-2.2.1.tgz#2a6a54840432c2fb6320fea0f415531e90189f54"
-  integrity sha1-KmpUhAQywvtjIP6g9BVTHpAYn1Q=
+tabbable@^6.4.0:
+  version "6.4.0"
+  resolved "http://registry.m.jd.com/tabbable/download/tabbable-6.4.0.tgz"
+  integrity sha1-Nut6BtgLOSSiIJXa9FdA3qO/VYE=
 
-tinydate@^1.3.0:
-  version "1.3.0"
-  resolved "http://registry.m.jd.com/tinydate/download/tinydate-1.3.0.tgz#e6ca8e5a22b51bb4ea1c3a2a4fd1352dbd4c57fb"
-  integrity sha1-5sqOWiK1G7TqHDoqT9E1Lb1MV/s=
-
-to-readable-stream@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.m.jd.com/to-readable-stream/download/to-readable-stream-1.0.0.tgz#ce0aa0c2f3df6adf852efb404a783e77c0475771"
-  integrity sha1-zgqgwvPfat+FLvtASng+d8BHV3E=
+tinyexec@^1.0.1:
+  version "1.2.4"
+  resolved "http://registry.m.jd.com/tinyexec/download/tinyexec-1.2.4.tgz"
+  integrity sha1-rkW7Lt69qUxw9OqJfg8SQ+Rw23E=
 
 to-regex-range@^5.0.1:
   version "5.0.1"
-  resolved "http://registry.m.jd.com/to-regex-range/download/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  resolved "http://registry.m.jd.com/to-regex-range/download/to-regex-range-5.0.1.tgz"
   integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
   dependencies:
     is-number "^7.0.0"
 
-toidentifier@~1.0.1:
-  version "1.0.1"
-  resolved "http://registry.m.jd.com/toidentifier/download/toidentifier-1.0.1.tgz#3be34321a88a820ed1bd80dfaa33e479fbb8dd35"
-  integrity sha1-O+NDIaiKgg7RvYDfqjPkefu43TU=
-
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "http://registry.m.jd.com/tr46/download/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
-  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
-
-tweezer.js@^1.4.0:
-  version "1.5.0"
-  resolved "http://registry.m.jd.com/tweezer.js/download/tweezer.js-1.5.0.tgz#ca50ac5215022203fd3be4d28617e8e2305f5c0c"
-  integrity sha1-ylCsUhUCIgP9O+TShhfo4jBfXAw=
-
-type-fest@^0.8.1:
-  version "0.8.1"
-  resolved "http://registry.m.jd.com/type-fest/download/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
-  integrity sha1-CeJJ696FHTseSNJ8EFREZn8XuD0=
-
-typedarray-to-buffer@^3.1.5:
-  version "3.1.5"
-  resolved "http://registry.m.jd.com/typedarray-to-buffer/download/typedarray-to-buffer-3.1.5.tgz#a97ee7a9ff42691b9f783ff1bc5112fe3fca9080"
-  integrity sha1-qX7nqf9CaRufeD/xvFES/j/KkIA=
-  dependencies:
-    is-typedarray "^1.0.0"
-
-unique-string@^2.0.0:
-  version "2.0.0"
-  resolved "http://registry.m.jd.com/unique-string/download/unique-string-2.0.0.tgz#39c6451f81afb2749de2b233e3f7c5e8843bd89d"
-  integrity sha1-OcZFH4GvsnSd4rIz4/fF6IQ72J0=
-  dependencies:
-    crypto-random-string "^2.0.0"
-
-universalify@^0.1.0:
-  version "0.1.2"
-  resolved "http://registry.m.jd.com/universalify/download/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
-  integrity sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY=
-
-unpipe@~1.0.0:
-  version "1.0.0"
-  resolved "http://registry.m.jd.com/unpipe/download/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
-  integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
-
-update-notifier@^4.1.0:
-  version "4.1.3"
-  resolved "http://registry.m.jd.com/update-notifier/download/update-notifier-4.1.3.tgz#be86ee13e8ce48fb50043ff72057b5bd598e1ea3"
-  integrity sha1-vobuE+jOSPtQBD/3IFe1vVmOHqM=
-  dependencies:
-    boxen "^4.2.0"
-    chalk "^3.0.0"
-    configstore "^5.0.1"
-    has-yarn "^2.1.0"
-    import-lazy "^2.1.0"
-    is-ci "^2.0.0"
-    is-installed-globally "^0.3.1"
-    is-npm "^4.0.0"
-    is-yarn-global "^0.3.0"
-    latest-version "^5.0.0"
-    pupa "^2.0.1"
-    semver-diff "^3.1.1"
-    xdg-basedir "^4.0.0"
-
-url-parse-lax@^3.0.0:
-  version "3.0.0"
-  resolved "http://registry.m.jd.com/url-parse-lax/download/url-parse-lax-3.0.0.tgz#16b5cafc07dbe3676c1b1999177823d6503acb0c"
-  integrity sha1-FrXK/Afb42dsGxmZF3gj1lA6yww=
-  dependencies:
-    prepend-http "^2.0.0"
-
-utils-merge@1.0.1:
-  version "1.0.1"
-  resolved "http://registry.m.jd.com/utils-merge/download/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
-  integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
-
-webidl-conversions@^3.0.0:
+trim-lines@^3.0.0:
   version "3.0.1"
-  resolved "http://registry.m.jd.com/webidl-conversions/download/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
-  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+  resolved "http://registry.m.jd.com/trim-lines/download/trim-lines-3.0.1.tgz"
+  integrity sha1-2ALjMqB9+GHEiALAQyEBexvYczg=
 
-whatwg-url@^5.0.0:
+trim-repeated@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.m.jd.com/trim-repeated/download/trim-repeated-1.0.0.tgz"
+  integrity sha1-42RqLqTokTEr9+rObPsFOAvAHCE=
+  dependencies:
+    escape-string-regexp "^1.0.2"
+
+ts-dedent@^2.2.0:
+  version "2.3.0"
+  resolved "http://registry.m.jd.com/ts-dedent/download/ts-dedent-2.3.0.tgz"
+  integrity sha1-j6w2x5ArVBwVSsE6J6xGeZevEfg=
+
+unist-util-is@^6.0.0:
+  version "6.0.1"
+  resolved "http://registry.m.jd.com/unist-util-is/download/unist-util-is-6.0.1.tgz"
+  integrity sha1-0KP4by3Q23rNfYwkeAgLXGf5xqk=
+  dependencies:
+    "@types/unist" "^3.0.0"
+
+unist-util-position@^5.0.0:
   version "5.0.0"
-  resolved "http://registry.m.jd.com/whatwg-url/download/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
-  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  resolved "http://registry.m.jd.com/unist-util-position/download/unist-util-position-5.0.0.tgz"
+  integrity sha1-Z48gq1yhIHqX1+qKOINzyc+Ja+Q=
   dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
+    "@types/unist" "^3.0.0"
 
-which-module@^2.0.0:
-  version "2.0.1"
-  resolved "http://registry.m.jd.com/which-module/download/which-module-2.0.1.tgz#776b1fe35d90aebe99e8ac15eb24093389a4a409"
-  integrity sha1-d2sf412Qrr6Z6KwV6yQJM4mkpAk=
-
-widest-line@^3.1.0:
-  version "3.1.0"
-  resolved "http://registry.m.jd.com/widest-line/download/widest-line-3.1.0.tgz#8292333bbf66cb45ff0de1603b136b7ae1496eca"
-  integrity sha1-gpIzO79my0X/DeFgOxNreuFJbso=
-  dependencies:
-    string-width "^4.0.0"
-
-wrap-ansi@^6.2.0:
-  version "6.2.0"
-  resolved "http://registry.m.jd.com/wrap-ansi/download/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
-  integrity sha1-6Tk7oHEC5skaOyIUePAlfNKFblM=
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
-wrappy@1:
-  version "1.0.2"
-  resolved "http://registry.m.jd.com/wrappy/download/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
-  integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
-
-write-file-atomic@^3.0.0:
-  version "3.0.3"
-  resolved "http://registry.m.jd.com/write-file-atomic/download/write-file-atomic-3.0.3.tgz#56bd5c5a5c70481cd19c571bd39ab965a5de56e8"
-  integrity sha1-Vr1cWlxwSBzRnFcb05q5ZaXeVug=
-  dependencies:
-    imurmurhash "^0.1.4"
-    is-typedarray "^1.0.0"
-    signal-exit "^3.0.2"
-    typedarray-to-buffer "^3.1.5"
-
-ws@^7.4.3:
-  version "7.5.10"
-  resolved "http://registry.m.jd.com/ws/download/ws-7.5.10.tgz#58b5c20dc281633f6c19113f39b349bd8bd558d9"
-  integrity sha1-WLXCDcKBYz9sGRE/ObNJvYvVWNk=
-
-xdg-basedir@^4.0.0:
+unist-util-stringify-position@^4.0.0:
   version "4.0.0"
-  resolved "http://registry.m.jd.com/xdg-basedir/download/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
-  integrity sha1-S8jZmEQDaWIl74OhVzy7y0552xM=
+  resolved "http://registry.m.jd.com/unist-util-stringify-position/download/unist-util-stringify-position-4.0.0.tgz"
+  integrity sha1-RJxuIaiA4IVb9aq63rOnQDFKusI=
+  dependencies:
+    "@types/unist" "^3.0.0"
 
-y18n@^4.0.0:
+unist-util-visit-parents@^6.0.0:
+  version "6.0.2"
+  resolved "http://registry.m.jd.com/unist-util-visit-parents/download/unist-util-visit-parents-6.0.2.tgz"
+  integrity sha1-d333+5hlLOFrS3zZmdChpA76OgI=
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-is "^6.0.0"
+
+unist-util-visit@^5.0.0:
+  version "5.1.0"
+  resolved "http://registry.m.jd.com/unist-util-visit/download/unist-util-visit-5.1.0.tgz"
+  integrity sha1-mioosKp2oV4NpwoIpYY6LwYOJGg=
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-is "^6.0.0"
+    unist-util-visit-parents "^6.0.0"
+
+universalify@^2.0.0:
+  version "2.0.1"
+  resolved "http://registry.m.jd.com/universalify/download/universalify-2.0.1.tgz"
+  integrity sha1-Fo78IYCWTmOG0GHglN9hr+I5sY0=
+
+"uuid@^11.1.0 || ^12 || ^13 || ^14.0.0":
+  version "14.0.1"
+  resolved "http://registry.m.jd.com/uuid/download/uuid-14.0.1.tgz"
+  integrity sha1-ill1s+A4kCv9FpoQtSAvXsDPP68=
+
+vfile-message@^4.0.0:
   version "4.0.3"
-  resolved "http://registry.m.jd.com/y18n/download/y18n-4.0.3.tgz#b5f259c82cd6e336921efd7bfd8bf560de9eeedf"
-  integrity sha1-tfJZyCzW4zaSHv17/Yv1YN6e7t8=
-
-yallist@^3.0.2:
-  version "3.1.1"
-  resolved "http://registry.m.jd.com/yallist/download/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
-  integrity sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
-
-yargonaut@^1.1.2:
-  version "1.1.4"
-  resolved "http://registry.m.jd.com/yargonaut/download/yargonaut-1.1.4.tgz#c64f56432c7465271221f53f5cc517890c3d6e0c"
-  integrity sha1-xk9WQyx0ZScSIfU/XMUXiQw9bgw=
+  resolved "http://registry.m.jd.com/vfile-message/download/vfile-message-4.0.3.tgz"
+  integrity sha1-h7RN3de3DwZBwuPtCGS6c+LqjfQ=
   dependencies:
-    chalk "^1.1.1"
-    figlet "^1.1.1"
-    parent-require "^1.0.0"
+    "@types/unist" "^3.0.0"
+    unist-util-stringify-position "^4.0.0"
 
-yargs-parser@^18.1.2:
-  version "18.1.3"
-  resolved "http://registry.m.jd.com/yargs-parser/download/yargs-parser-18.1.3.tgz#be68c4975c6b2abf469236b0c870362fab09a7b0"
-  integrity sha1-vmjEl1xrKr9GkjawyHA2L6sJp7A=
+vfile@^6.0.0:
+  version "6.0.3"
+  resolved "http://registry.m.jd.com/vfile/download/vfile-6.0.3.tgz"
+  integrity sha1-NlKrHEllMYUr9VprrFevmB68OKs=
   dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
+    "@types/unist" "^3.0.0"
+    vfile-message "^4.0.0"
 
-yargs@^15.3.0:
-  version "15.4.1"
-  resolved "http://registry.m.jd.com/yargs/download/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
-  integrity sha1-DYehbeAa7p2L7Cv7909nhRcw9Pg=
+"vite@^5.0.0 || ^6.0.0", vite@^5.4.14:
+  version "5.4.21"
+  resolved "http://registry.m.jd.com/vite/download/vite-5.4.21.tgz"
+  integrity sha1-hKT3xdhgsHFnbTm6UTwNWY/ccCc=
   dependencies:
-    cliui "^6.0.0"
-    decamelize "^1.2.0"
-    find-up "^4.1.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^4.2.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^18.1.2"
+    esbuild "^0.21.3"
+    postcss "^8.4.43"
+    rollup "^4.20.0"
+  optionalDependencies:
+    fsevents "~2.3.3"
+
+vitepress-plugin-mermaid@^2.0.17:
+  version "2.0.17"
+  resolved "http://registry.m.jd.com/vitepress-plugin-mermaid/download/vitepress-plugin-mermaid-2.0.17.tgz"
+  integrity sha1-VH9GREEpgzOxD1928jM619ghc/M=
+  optionalDependencies:
+    "@mermaid-js/mermaid-mindmap" "^9.3.0"
+
+"vitepress@^1.0.0 || ^1.0.0-alpha", vitepress@^1.6.4:
+  version "1.6.4"
+  resolved "http://registry.m.jd.com/vitepress/download/vitepress-1.6.4.tgz"
+  integrity sha1-G2xo/t5UGj9AGmYmPc4MmF4tjZI=
+  dependencies:
+    "@docsearch/css" "3.8.2"
+    "@docsearch/js" "3.8.2"
+    "@iconify-json/simple-icons" "^1.2.21"
+    "@shikijs/core" "^2.1.0"
+    "@shikijs/transformers" "^2.1.0"
+    "@shikijs/types" "^2.1.0"
+    "@types/markdown-it" "^14.1.2"
+    "@vitejs/plugin-vue" "^5.2.1"
+    "@vue/devtools-api" "^7.7.0"
+    "@vue/shared" "^3.5.13"
+    "@vueuse/core" "^12.4.0"
+    "@vueuse/integrations" "^12.4.0"
+    focus-trap "^7.6.4"
+    mark.js "8.11.1"
+    minisearch "^7.1.1"
+    shiki "^2.1.0"
+    vite "^5.4.14"
+    vue "^3.5.13"
+
+vue@^3.2.25, vue@^3.5.13, vue@3.5.38:
+  version "3.5.38"
+  resolved "http://registry.m.jd.com/vue/download/vue-3.5.38.tgz"
+  integrity sha1-im1S8XaOGXVF6TeSDWwZf+dvwts=
+  dependencies:
+    "@vue/compiler-dom" "3.5.38"
+    "@vue/compiler-sfc" "3.5.38"
+    "@vue/runtime-dom" "3.5.38"
+    "@vue/server-renderer" "3.5.38"
+    "@vue/shared" "3.5.38"
+
+zwitch@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.m.jd.com/zwitch/download/zwitch-2.0.4.tgz"
+  integrity sha1-yCfUsKy3b8PmhaTG7CkC1RBw6dc=

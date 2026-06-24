@@ -62,7 +62,7 @@ microtask 队列和task 队列有些相似，都是先进先出的队列，由�
 
 > 执行完`microtask`队列里的任务，有**可能**会渲染更新。（浏览器很聪明，在一帧以内的多次dom变动浏览器不会立即响应，而是会积攒变动以最高60HZ的频率更新视图）
 
-![](../../static/img/image%20%2812%29.png)
+![](/img/image%20%2812%29.png)
 
 
 
@@ -255,7 +255,7 @@ Node 的 Event Loop 分为 6 个阶段：
 
 > 上面六个阶段都不包括 process.nextTick\(\)
 
-![](../../static/img/image%20%284%29.png)
+![](/img/image%20%284%29.png)
 
 #### timers 阶段
 

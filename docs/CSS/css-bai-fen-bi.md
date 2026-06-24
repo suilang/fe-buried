@@ -28,9 +28,9 @@
   text-align: center;
 }
 ```
-<div  style={{width: '500px', height: '300px', border: '1px solid grey'}}>
-  <div style={{width: '50%', height: '50%', background: 'lightblue', textAlign: 'center'}}>注意这里</div>
-  <div style={{borderTop: '1px solid lightblue', textAlign: 'center'}}>我是分割线</div>
+<div  style="{width: '500px', height: '300px', border: '1px solid grey'}}">
+  <div style="{width: '50%', height: '50%', background: 'lightblue', textAlign: 'center'}}">注意这里</div>
+  <div style="{borderTop: '1px solid lightblue', textAlign: 'center'}}">我是分割线</div>
 </div>
 
 
@@ -62,9 +62,9 @@
   text-align: center;
 }
 ```
-<div style={{width: '500px', height: '300px', border: '1px solid grey'}}>
-  <div style={{margin: '10% 10%', background: 'lightblue', textAlign: 'center'}}>注意这里</div>
-  <div style={{borderTop: '1px solid lightblue', textAlign: 'center'}}>我是分割线</div>
+<div style="{width: '500px', height: '300px', border: '1px solid grey'}}">
+  <div style="{margin: '10% 10%', background: 'lightblue', textAlign: 'center'}}">注意这里</div>
+  <div style="{borderTop: '1px solid lightblue', textAlign: 'center'}}">我是分割线</div>
 </div>
 
 
@@ -87,9 +87,9 @@
   writing-mode: vertical-lr;
 }
 ```
-<div style={{width: '500px', height: '300px', border: '1px solid grey', writingMode: 'vertical-lr'}}>
-  <div style={{margin: '10% 10%', background: 'lightblue', textAlign: 'center'}}>注意这里</div>
-  <div style={{borderLeft: '1px solid lightblue', textAlign: 'center'}}>我是分割线</div>
+<div style="{width: '500px', height: '300px', border: '1px solid grey', writingMode: 'vertical-lr'}}">
+  <div style="{margin: '10% 10%', background: 'lightblue', textAlign: 'center'}}">注意这里</div>
+  <div style="{borderLeft: '1px solid lightblue', textAlign: 'center'}}">我是分割线</div>
 </div>
 
 
@@ -103,9 +103,9 @@
 
 举个例子看看效果。注意，这是纵向排列的例子。
 
-<div style={{width: '500px', height: '300px', border: '1px solid grey', writingMode: 'vertical-lr'}}>
-  <div style={{padding: '10% 10%', background: 'lightblue', textAlign: 'center'}}>注意这里</div>
-  <div style={{borderLeft: '1px solid lightblue', textAlign: 'center'}}>我是分割线</div>
+<div style="{width: '500px', height: '300px', border: '1px solid grey', writingMode: 'vertical-lr'}}">
+  <div style="{padding: '10% 10%', background: 'lightblue', textAlign: 'center'}}">注意这里</div>
+  <div style="{borderLeft: '1px solid lightblue', textAlign: 'center'}}">我是分割线</div>
 </div>
 
 同上一个例子相比， 左侧元素占位区域并没有扩大，仅仅是由于`margin` 改为`padding` 导致背景区域扩大而已。
@@ -156,11 +156,11 @@
   background: yellow;
 }
 ```
-<div style={{width: '500px', height: '300px', border: '1px solid grey'}}>
-  <div style={{width:' 100%',padding: '10% 10%', background: 'lightblue',boxSizing: 'content-box', textAlign: 'center'}}>
-    <div style={{background: 'yellow'}}>注意这里</div>
+<div style="{width: '500px', height: '300px', border: '1px solid grey'}}">
+  <div style="{width:' 100%',padding: '10% 10%', background: 'lightblue',boxSizing: 'content-box', textAlign: 'center'}}">
+    <div style="{background: 'yellow'}}">注意这里</div>
   </div>
-  <div style={{borderTop: '1px solid lightblue', textAlign: 'center'}}>我是分割线</div>
+  <div style="{borderTop: '1px solid lightblue', textAlign: 'center'}}">我是分割线</div>
 </div>
 
 
@@ -194,8 +194,8 @@
   position: absolute;
 }
 ```
-<div style={{width: '500px', height: '300px', border: '1px solid grey', position: 'relative'}}>
-  <div style={{ width: '200px', height: '100px', background: 'lightblue', top:'10%', left: '10%', position: 'absolute'}}></div>
+<div style="{width: '500px', height: '300px', border: '1px solid grey', position: 'relative'}}">
+  <div style="{ width: '200px', height: '100px', background: 'lightblue', top:'10%', left: '10%', position: 'absolute'}}"></div>
 </div>
 
 
@@ -231,14 +231,14 @@
   transform: translate(-50%,-50%);
 }
 ```
-<div style={{width: '500px', height: '300px', border: '1px solid grey', position: 'relative'}}>
-  <div style={{width: '50%',
+<div style="{width: '500px', height: '300px', border: '1px solid grey', position: 'relative'}}">
+  <div style="{width: '50%',
   height: '50%',
   background: 'lightblue',
   position: 'absolute',
   left: '50%',
   top: '50%',
-  transform: 'translate(-50%,-50%)'}}></div>
+  transform: 'translate(-50%,-50%)'}}"></div>
 </div>
 
 translate 属性和绝对定位、相对定位属性加上 top、left 数值都可以使元素产生位移，但存在细微差别，表现在offsetLeft 和 offsetTop 属性。
@@ -272,8 +272,8 @@ translate 属性和绝对定位、相对定位属性加上 top、left 数值都�
   margin-left: -100px;
 }
 ```
-<div style={{width: '500px',marginLeft: '100px', height: '200px', border: '1px solid grey'}}>
-  <div  style={{height: '100px', background: 'lightblue', marginLeft: '-100px'}}>里层的元素设置了margin-left:-100px</div>
+<div style="{width: '500px',marginLeft: '100px', height: '200px', border: '1px solid grey'}}">
+  <div  style="{height: '100px', background: 'lightblue', marginLeft: '-100px'}}">里层的元素设置了margin-left:-100px</div>
 </div>
 
 
@@ -287,8 +287,8 @@ translate 属性和绝对定位、相对定位属性加上 top、left 数值都�
   width: 100%;
 }
 ```
-<div style={{width: '500px',marginLeft: '100px', height: '200px', border: '1px solid grey', marginBottom: '20px'}}>
-  <div style={{height: '100px',  background: 'lightblue',width: '100%', marginLeft: '-100px'}}>里层的元素设置了margin-left:-100px</div>
+<div style="{width: '500px',marginLeft: '100px', height: '200px', border: '1px solid grey', marginBottom: '20px'}}">
+  <div style="{height: '100px',  background: 'lightblue',width: '100%', marginLeft: '-100px'}}">里层的元素设置了margin-left:-100px</div>
 </div>
 
 2. margin-top为负值，不管是否设置高度，都不会增加高度，而是会产生向上的位移
@@ -301,8 +301,8 @@ translate 属性和绝对定位、相对定位属性加上 top、left 数值都�
   width: 100%;
 }
 ```
-<div style={{width: '500px',marginTop: '100px', height: '200px', border: '1px solid grey', marginBottom: '20px'}}>
-  <div style={{height: '100px', background: 'lightblue', width: '100%',  marginTop: '-100px'}}>里层的元素设置了margin-top:-100px</div>
+<div style="{width: '500px',marginTop: '100px', height: '200px', border: '1px solid grey', marginBottom: '20px'}}">
+  <div style="{height: '100px', background: 'lightblue', width: '100%',  marginTop: '-100px'}}">里层的元素设置了margin-top:-100px</div>
 </div>
 
 3. margin-bottom为负值的时候不会位移,而是会减少自身供css读取的高度.
@@ -322,8 +322,8 @@ translate 属性和绝对定位、相对定位属性加上 top、left 数值都�
   width: 100%;
 }
 ```
-<div style={{width: '500px', height: '200px', border: '1px solid grey'}}>
-  <div style={{height: '150px', background: 'lightblue',width: '100%', marginBottom: '-100px'}}>里层的元素设置了margin-bottom:-100px</div>
+<div style="{width: '500px', height: '200px', border: '1px solid grey'}}">
+  <div style="{height: '150px', background: 'lightblue',width: '100%', marginBottom: '-100px'}}">里层的元素设置了margin-bottom:-100px</div>
     <div>这里是下一个元素</div>
 </div>
 

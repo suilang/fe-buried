@@ -91,7 +91,7 @@ console.log('o.proto', o.__proto__, typeof o.__proto__) // f {} object
 
 综上，整个原型链如下: 
 
-![](../../static/img/gaitubao-ping-mu-kuai-zhao-20200430-xia-wu-8.12.37.png)
+![](/img/gaitubao-ping-mu-kuai-zhao-20200430-xia-wu-8.12.37.png)
 
 现在，下面四条就很清晰明确了
 
@@ -122,7 +122,7 @@ console.log('o.proto', o.__proto__) // f { b: 3, c: 4 }
 
 变更之后的原型链如下：
 
-![](../../static/img/gaitubao-ping-mu-kuai-zhao-20200501-shang-wu-8.52.04.png)
+![](/img/gaitubao-ping-mu-kuai-zhao-20200501-shang-wu-8.52.04.png)
 
 ```javascript
 // 遵循ECMAScript标准，someObject.[[Prototype]] 符号是用于指向 someObject 的原型。

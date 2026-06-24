@@ -117,7 +117,7 @@ func2();//结果显示:num is not defined
 
 上述代码作用域链如下：
 
-![](../../static/img/gaitubao-ping-mu-kuai-zhao-20200503-xia-wu-5.22.33.png)
+![](/img/gaitubao-ping-mu-kuai-zhao-20200503-xia-wu-5.22.33.png)
 
 分析下代码执行流程：
 

@@ -63,7 +63,7 @@ HTML5 提供了定义页面不同部分的新语义元素：
 | summary | 定义 details 元素的可见标题。 |
 | time | 定义日期/时间。 |
 
-![](../../static/img/image%20%286%29.png)
+![](/img/image%20%286%29.png)
 
 ### article 元素
 

@@ -167,11 +167,11 @@ AMD规范使用define方法定义模块，如果我们定义的模块本身也�
 ```
 define(['package/lib'], function(lib){
   function foo(){
-    lib.log('hello world!');
+lib.log('hello world!');
   }
 
   return {
-    foo: foo
+foo: foo
   };
 });
 ```
@@ -199,13 +199,13 @@ var foo = require('foo.js');
 
 根据参数的不同格式，`require`命令去不同路径寻找模块文件。
 
-    1. 如果参数字符串以“/”开头，则表示加载的是一个位于绝对路径的模块文件。比如，`require('/home/marco/foo.js')`将加载`/home/marco/foo.js`。
-    
-    2. 如果参数字符串以“./”开头，则表示加载的是一个位于相对路径（跟当前执行脚本的位置相比）的模块文件。比如，`require('./circle')`将加载当前脚本同一目录的`circle.js`。
-    
-    3. 如果参数字符串不以“./“或”/“开头，则表示加载的是一个默认提供的核心模块（位于Node的系统安装目录中），或者一个位于各级node_modules目录的已安装模块（全局安装或局部安装）。
-    
-    举例来说，脚本`/home/user/projects/foo.js`执行了`require('bar.js')`命令，Node会依次搜索以下文件。
+1. 如果参数字符串以“/”开头，则表示加载的是一个位于绝对路径的模块文件。比如，`require('/home/marco/foo.js')`将加载`/home/marco/foo.js`。
+
+2. 如果参数字符串以“./”开头，则表示加载的是一个位于相对路径（跟当前执行脚本的位置相比）的模块文件。比如，`require('./circle')`将加载当前脚本同一目录的`circle.js`。
+
+3. 如果参数字符串不以“./“或”/“开头，则表示加载的是一个默认提供的核心模块（位于Node的系统安装目录中），或者一个位于各级node_modules目录的已安装模块（全局安装或局部安装）。
+
+举例来说，脚本`/home/user/projects/foo.js`执行了`require('bar.js')`命令，Node会依次搜索以下文件。
 ```
 /usr/local/lib/node/bar.js
 /home/user/projects/node_modules/bar.js
@@ -213,11 +213,11 @@ var foo = require('foo.js');
 /home/node_modules/bar.js
 /node_modules/bar.js
 ```
-    4. 如果参数字符串不以“./“或”/“开头，而且是一个路径，比如require('example-module/path/to/file')，则将先找到example-module的位置，然后再以它为参数，找到后续路径。
-    
-    5. 如果指定的模块文件没有发现，Node会尝试为文件名添加.js、.json、.node后，再去搜索。.js件会以文本格式的JavaScript脚本文件解析，.json文件会以JSON格式的文本文件解析，.node文件会以编译后的二进制文件解析。
-    
-    6. 如果想得到require命令加载的确切文件名，使用require.resolve()方法。
+4. 如果参数字符串不以“./“或”/“开头，而且是一个路径，比如require('example-module/path/to/file')，则将先找到example-module的位置，然后再以它为参数，找到后续路径。
+
+5. 如果指定的模块文件没有发现，Node会尝试为文件名添加.js、.json、.node后，再去搜索。.js件会以文本格式的JavaScript脚本文件解析，.json文件会以JSON格式的文本文件解析，.node文件会以编译后的二进制文件解析。
+
+6. 如果想得到require命令加载的确切文件名，使用require.resolve()方法。
 
 ### 目录加载规则
 
@@ -257,10 +257,10 @@ AMD的实现者require.js在申明依赖的模块时，会在第一时间加载�
 ```
 define(["a", "b", "c", "d", "e", "f"], function(a, b, c, d, e, f) { 
     // 等于在最前面声明并初始化了要用到的所有模块
-    if (false) {
-      // 即便没用到某个模块 b，但 b 还是提前执行了。**这就CMD要优化的地方**
-      b.foo()
-    } 
+if (false) {
+  // 即便没用到某个模块 b，但 b 还是提前执行了。**这就CMD要优化的地方**
+  b.foo()
+} 
 });
 ```
 CMD是另一种js模块化方案，它与AMD很类似，不同点在于：AMD推崇依赖前置、提前执行，CMD推崇依赖就近、延迟执行。
@@ -273,8 +273,8 @@ define(function (require, exports, module){
   anotherModule.doMoarAwesome();
 
   exports.asplode = function (){
-    someModule.doTehAwesome();
-    anotherModule.doMoarAwesome();
+someModule.doTehAwesome();
+anotherModule.doMoarAwesome();
   };
 });
 ```
@@ -286,18 +286,18 @@ umd是一种思想，就是一种兼容 commonjs,AMD,CMD 的兼容写法，defin
 UMD先判断支持Node.js的模块（exports）是否存在，存在则使用Node.js模块模式。再判断是否支持AMD（define是否存在），存在则使用AMD方式加载模块。都不行就挂载到 window 全局对象上面去
 
 (function (root, factory) {
-    if (typeof define === 'function' && (define.amd || define.cmd)) {
-        //AMD,CMD
-        define(['b'], function(b){
-          return (root.returnExportsGlobal = factory(b))
-        });
-    } else if (typeof module === 'object' && module.exports) {
-        //Node, CommonJS之类的
-        module.exports = factory(require('b'));
-    } else {
-        //公开暴露给全局对象
-        root.returnExports = factory(root.b);
-    }
+if (typeof define === 'function' && (define.amd || define.cmd)) {
+    //AMD,CMD
+    define(['b'], function(b){
+      return (root.returnExportsGlobal = factory(b))
+    });
+} else if (typeof module === 'object' && module.exports) {
+    //Node, CommonJS之类的
+    module.exports = factory(require('b'));
+} else {
+    //公开暴露给全局对象
+    root.returnExports = factory(root.b);
+}
 }(this, function (b) {
   return {};
 }));
@@ -309,14 +309,14 @@ ES6 在语言标准的层面上，实现了模块功能，而且实现得相当�
 /** 定义模块 math.js **/
 var basicNum = 0;
 var add = function (a, b) {
-    return a + b;
+return a + b;
 };
 export { basicNum, add };
 
 /** 引用模块 **/
 import { basicNum, add } from './math';
 function test(ele) {
-    ele.textContent = add(99 + basicNum);
+ele.textContent = add(99 + basicNum);
 }
 ```
 
